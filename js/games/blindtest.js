@@ -65,7 +65,7 @@ class BlindTestMode {
 
         // Charger et jouer l'extrait
         try {
-            await this.audio.loadMusic(this.currentSong.audioUrl);
+            await this.audio.loadMusic(this.currentSong.audioUrl, this.currentSong.fallbackAudioUrl);
 
             // Démarrer à un point aléatoire de la chanson (pas le début)
             const duration = this.audio.getDuration();

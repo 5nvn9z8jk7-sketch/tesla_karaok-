@@ -51,11 +51,32 @@ class AudioEngine {
 
     /**
      * Charge et joue un fichier audio (instrumental)
+     * Essaie d'abord l'URL principale, puis le fallback si échec
      */
-    async loadMusic(url) {
+    async loadMusic(url, fallbackUrl) {
         await this.init();
         this.stopMusic();
 
+        // Essayer l'URL principale, puis le fallback
+        const urls = fallbackUrl ? [url, fallbackUrl] : [url];
+
+        for (const tryUrl of urls) {
+            try {
+                await this.tryLoadMusic(tryUrl);
+                return; // Succès
+            } catch (err) {
+                console.warn(`Échec chargement ${tryUrl}, essai suivant...`);
+                continue;
+            }
+        }
+
+        throw new Error(`Impossible de charger l'audio: ${urls.join(', ')}`);
+    }
+
+    /**
+     * Essaie de charger une URL audio spécifique
+     */
+    tryLoadMusic(url) {
         return new Promise((resolve, reject) => {
             this.audioElement = new Audio(url);
             this.audioElement.crossOrigin = 'anonymous';

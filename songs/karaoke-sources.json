@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "vie-en-rose",
+    "title": "La Vie en Rose",
+    "artist": "Édith Piaf",
+    "searchUrl": "https://www.youtube.com/results?search_query=La+Vie+en+Rose+Édith+Piaf+karaoke+instrumental",
+    "searchQueries": [
+      "La Vie en Rose Édith Piaf karaoke instrumental",
+      "La Vie en Rose Édith Piaf playback",
+      "La Vie en Rose Édith Piaf backing track"
+    ],
+    "outputPath": "songs/vie-en-rose/audio.mp3"
+  },
+  {
+    "id": "ne-regrette-rien",
+    "title": "Non, je ne regrette rien",
+    "artist": "Édith Piaf",
+    "searchUrl": "https://www.youtube.com/results?search_query=Non,+je+ne+regrette+rien+Édith+Piaf+karaoke+instrumental",
+    "searchQueries": [
+      "Non, je ne regrette rien Édith Piaf karaoke instrumental",
+      "Non, je ne regrette rien Édith Piaf playback",
+      "Non, je ne regrette rien Édith Piaf backing track"
+    ],
+    "outputPath": "songs/ne-regrette-rien/audio.mp3"
+  },
+  {
+    "id": "sous-ciel-paris",
+    "title": "Sous le ciel de Paris",
+    "artist": "Édith Piaf",
+    "searchUrl": "https://www.youtube.com/results?search_query=Sous+le+ciel+de+Paris+Édith+Piaf+karaoke+instrumental",
+    "searchQueries": [
+      "Sous le ciel de Paris Édith Piaf karaoke instrumental",
+      "Sous le ciel de Paris Édith Piaf playback",
+      "Sous le ciel de Paris Édith Piaf backing track"
+    ],
+    "outputPath": "songs/sous-ciel-paris/audio.mp3"
+  },
+  {
+    "id": "milord",
+    "title": "Milord",
+    "artist": "Édith Piaf",
+    "searchUrl": "https://www.youtube.com/results?search_query=Milord+Édith+Piaf+karaoke+instrumental",
+    "searchQueries": [
+      "Milord Édith Piaf karaoke instrumental",
+      "Milord Édith Piaf playback",
+      "Milord Édith Piaf backing track"
+    ],
+    "outputPath": "songs/milord/audio.mp3"
+  },
+  {
+    "id": "hymne-amour",
+    "title": "L'hymne à l'amour",
+    "artist": "Édith Piaf",
+    "searchUrl": "https://www.youtube.com/results?search_query=L'hymne+à+l'amour+Édith+Piaf+karaoke+instrumental",
+    "searchQueries": [
+      "L'hymne à l'amour Édith Piaf karaoke instrumental",
+      "L'hymne à l'amour Édith Piaf playback",
+      "L'hymne à l'amour Édith Piaf backing track"
+    ],
+    "outputPath": "songs/hymne-amour/audio.mp3"
+  },
+  {
+    "id": "boheme",
+    "title": "La Bohème",
+    "artist": "Charles Aznavour",
+    "searchUrl": "https://www.youtube.com/results?search_query=La+Bohème+Charles+Aznavour+karaoke+instrumental",
+    "searchQueries": [
+      "La Bohème Charles Aznavour karaoke instrumental",
+      "La Bohème Charles Aznavour playback",
+      "La Bohème Charles Aznavour backing track"
+    ],
+    "outputPath": "songs/boheme/audio.mp3"
+  },
+  {
+    "id": "emmenez-moi",
+    "title": "Emmenez-moi",
+    "artist": "Charles Aznavour",
+    "searchUrl": "https://www.youtube.com/results?search_query=Emmenez-moi+Charles+Aznavour+karaoke+instrumental",
+    "searchQueries": [
+      "Emmenez-moi Charles Aznavour karaoke instrumental",
+      "Emmenez-moi Charles Aznavour playback",
+      "Emmenez-moi Charles Aznavour backing track"
+    ],
+    "outputPath": "songs/emmenez-moi/audio.mp3"
+  },
+  {
+    "id": "hier-encore",
+    "title": "Hier encore",
+    "artist": "Charles Aznavour",
+    "searchUrl": "https://www.youtube.com/results?search_query=Hier+encore+Charles+Aznavour+karaoke+instrumental",
+    "searchQueries": [
+      "Hier encore Charles Aznavour karaoke instrumental",
+      "Hier encore Charles Aznavour playback",
+      "Hier encore Charles Aznavour backing track"
+    ],
+    "outputPath": "songs/hier-encore/audio.mp3"
+  },
+  {
+    "id": "la-mamma",
+    "title": "La Mamma",
+    "artist": "Charles Aznavour",
+    "searchUrl": "https://www.youtube.com/results?search_query=La+Mamma+Charles+Aznavour+karaoke+instrumental",
+    "searchQueries": [
+      "La Mamma Charles Aznavour karaoke instrumental",
+      "La Mamma Charles Aznavour playback",
+      "La Mamma Charles Aznavour backing track"
+    ],
+    "outputPath": "songs/la-mamma/audio.mp3"
+  },
+  {
+    "id": "she",
+    "title": "She",
+    "artist": "Charles Aznavour",
+    "searchUrl": "https://www.youtube.com/results?search_query=She+Charles+Aznavour+karaoke+instrumental",
+    "searchQueries": [
+      "She Charles Aznavour karaoke instrumental",
+      "She Charles Aznavour playback",
+      "She Charles Aznavour backing track"
+    ],
+    "outputPath": "songs/she/audio.mp3"
+  },
+  {
+    "id": "ete-indien",
+    "title": "L'été indien",
+    "artist": "Joe Dassin",
+    "searchUrl": "https://www.youtube.com/results?search_query=L'été+indien+Joe+Dassin+karaoke+instrumental",
+    "searchQueries": [
+      "L'été indien Joe Dassin karaoke instrumental",
+      "L'été indien Joe Dassin playback",
+      "L'été indien Joe Dassin backing track"
+    ],
+    "outputPath": "songs/ete-indien/audio.mp3"
+  },
+  {
+    "id": "champs-elysees",
+    "title": "Les Champs-Élysées",
+    "artist": "Joe Dassin",
+    "searchUrl": "https://www.youtube.com/results?search_query=Les+Champs-Élysées+Joe+Dassin+karaoke+instrumental",
+    "searchQueries": [
+      "Les Champs-Élysées Joe Dassin karaoke instrumental",
+      "Les Champs-Élysées Joe Dassin playback",
+      "Les Champs-Élysées Joe Dassin backing track"
+    ],
+    "outputPath": "songs/champs-elysees/audio.mp3"
+  },
+  {
+    "id": "salut-amoureux",
+    "title": "Salut les amoureux",
+    "artist": "Joe Dassin",
+    "searchUrl": "https://www.youtube.com/results?search_query=Salut+les+amoureux+Joe+Dassin+karaoke+instrumental",
+    "searchQueries": [
+      "Salut les amoureux Joe Dassin karaoke instrumental",
+      "Salut les amoureux Joe Dassin playback",
+      "Salut les amoureux Joe Dassin backing track"
+    ],
+    "outputPath": "songs/salut-amoureux/audio.mp3"
+  },
+  {
+    "id": "petit-pain",
+    "title": "Le petit pain au chocolat",
+    "artist": "Joe Dassin",
+    "searchUrl": "https://www.youtube.com/results?search_query=Le+petit+pain+au+chocolat+Joe+Dassin+karaoke+instrumental",
+    "searchQueries": [
+      "Le petit pain au chocolat Joe Dassin karaoke instrumental",
+      "Le petit pain au chocolat Joe Dassin playback",
+      "Le petit pain au chocolat Joe Dassin backing track"
+    ],
+    "outputPath": "songs/petit-pain/audio.mp3"
+  },
+  {
+    "id": "siffler-colline",
+    "title": "Siffler sur la colline",
+    "artist": "Joe Dassin",
+    "searchUrl": "https://www.youtube.com/results?search_query=Siffler+sur+la+colline+Joe+Dassin+karaoke+instrumental",
+    "searchQueries": [
+      "Siffler sur la colline Joe Dassin karaoke instrumental",
+      "Siffler sur la colline Joe Dassin playback",
+      "Siffler sur la colline Joe Dassin backing track"
+    ],
+    "outputPath": "songs/siffler-colline/audio.mp3"
+  },
+  {
+    "id": "feuilles-mortes",
+    "title": "Les feuilles mortes",
+    "artist": "Yves Montand",
+    "searchUrl": "https://www.youtube.com/results?search_query=Les+feuilles+mortes+Yves+Montand+karaoke+instrumental",
+    "searchQueries": [
+      "Les feuilles mortes Yves Montand karaoke instrumental",
+      "Les feuilles mortes Yves Montand playback",
+      "Les feuilles mortes Yves Montand backing track"
+    ],
+    "outputPath": "songs/feuilles-mortes/audio.mp3"
+  },
+  {
+    "id": "cest-si-bon",
+    "title": "C'est si bon",
+    "artist": "Yves Montand",
+    "searchUrl": "https://www.youtube.com/results?search_query=C'est+si+bon+Yves+Montand+karaoke+instrumental",
+    "searchQueries": [
+      "C'est si bon Yves Montand karaoke instrumental",
+      "C'est si bon Yves Montand playback",
+      "C'est si bon Yves Montand backing track"
+    ],
+    "outputPath": "songs/cest-si-bon/audio.mp3"
+  },
+  {
+    "id": "la-mer",
+    "title": "La mer",
+    "artist": "Charles Trenet",
+    "searchUrl": "https://www.youtube.com/results?search_query=La+mer+Charles+Trenet+karaoke+instrumental",
+    "searchQueries": [
+      "La mer Charles Trenet karaoke instrumental",
+      "La mer Charles Trenet playback",
+      "La mer Charles Trenet backing track"
+    ],
+    "outputPath": "songs/la-mer/audio.mp3"
+  },
+  {
+    "id": "douce-france",
+    "title": "Douce France",
+    "artist": "Charles Trenet",
+    "searchUrl": "https://www.youtube.com/results?search_query=Douce+France+Charles+Trenet+karaoke+instrumental",
+    "searchQueries": [
+      "Douce France Charles Trenet karaoke instrumental",
+      "Douce France Charles Trenet playback",
+      "Douce France Charles Trenet backing track"
+    ],
+    "outputPath": "songs/douce-france/audio.mp3"
+  },
+  {
+    "id": "boum",
+    "title": "Boum !",
+    "artist": "Charles Trenet",
+    "searchUrl": "https://www.youtube.com/results?search_query=Boum+!+Charles+Trenet+karaoke+instrumental",
+    "searchQueries": [
+      "Boum ! Charles Trenet karaoke instrumental",
+      "Boum ! Charles Trenet playback",
+      "Boum ! Charles Trenet backing track"
+    ],
+    "outputPath": "songs/boum/audio.mp3"
+  },
+  {
+    "id": "poupee-cire",
+    "title": "Poupée de cire, poupée de son",
+    "artist": "France Gall",
+    "searchUrl": "https://www.youtube.com/results?search_query=Poupée+de+cire,+poupée+de+son+France+Gall+karaoke+instrumental",
+    "searchQueries": [
+      "Poupée de cire, poupée de son France Gall karaoke instrumental",
+      "Poupée de cire, poupée de son France Gall playback",
+      "Poupée de cire, poupée de son France Gall backing track"
+    ],
+    "outputPath": "songs/poupee-cire/audio.mp3"
+  },
+  {
+    "id": "ella-elle-la",
+    "title": "Ella, elle l'a",
+    "artist": "France Gall",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ella,+elle+l'a+France+Gall+karaoke+instrumental",
+    "searchQueries": [
+      "Ella, elle l'a France Gall karaoke instrumental",
+      "Ella, elle l'a France Gall playback",
+      "Ella, elle l'a France Gall backing track"
+    ],
+    "outputPath": "songs/ella-elle-la/audio.mp3"
+  },
+  {
+    "id": "babacar",
+    "title": "Babacar",
+    "artist": "France Gall",
+    "searchUrl": "https://www.youtube.com/results?search_query=Babacar+France+Gall+karaoke+instrumental",
+    "searchQueries": [
+      "Babacar France Gall karaoke instrumental",
+      "Babacar France Gall playback",
+      "Babacar France Gall backing track"
+    ],
+    "outputPath": "songs/babacar/audio.mp3"
+  },
+  {
+    "id": "diego",
+    "title": "Diego, libre dans sa tête",
+    "artist": "France Gall",
+    "searchUrl": "https://www.youtube.com/results?search_query=Diego,+libre+dans+sa+tête+France+Gall+karaoke+instrumental",
+    "searchQueries": [
+      "Diego, libre dans sa tête France Gall karaoke instrumental",
+      "Diego, libre dans sa tête France Gall playback",
+      "Diego, libre dans sa tête France Gall backing track"
+    ],
+    "outputPath": "songs/diego/audio.mp3"
+  },
+  {
+    "id": "groupie-pianiste",
+    "title": "La groupie du pianiste",
+    "artist": "Michel Berger",
+    "searchUrl": "https://www.youtube.com/results?search_query=La+groupie+du+pianiste+Michel+Berger+karaoke+instrumental",
+    "searchQueries": [
+      "La groupie du pianiste Michel Berger karaoke instrumental",
+      "La groupie du pianiste Michel Berger playback",
+      "La groupie du pianiste Michel Berger backing track"
+    ],
+    "outputPath": "songs/groupie-pianiste/audio.mp3"
+  },
+  {
+    "id": "quelques-mots",
+    "title": "Quelques mots d'amour",
+    "artist": "Michel Berger",
+    "searchUrl": "https://www.youtube.com/results?search_query=Quelques+mots+d'amour+Michel+Berger+karaoke+instrumental",
+    "searchQueries": [
+      "Quelques mots d'amour Michel Berger karaoke instrumental",
+      "Quelques mots d'amour Michel Berger playback",
+      "Quelques mots d'amour Michel Berger backing track"
+    ],
+    "outputPath": "songs/quelques-mots/audio.mp3"
+  },
+  {
+    "id": "peu-de-blues",
+    "title": "Un peu de blues",
+    "artist": "Michel Berger",
+    "searchUrl": "https://www.youtube.com/results?search_query=Un+peu+de+blues+Michel+Berger+karaoke+instrumental",
+    "searchQueries": [
+      "Un peu de blues Michel Berger karaoke instrumental",
+      "Un peu de blues Michel Berger playback",
+      "Un peu de blues Michel Berger backing track"
+    ],
+    "outputPath": "songs/peu-de-blues/audio.mp3"
+  },
+  {
+    "id": "lacs-connemara",
+    "title": "Les lacs du Connemara",
+    "artist": "Michel Sardou",
+    "searchUrl": "https://www.youtube.com/results?search_query=Les+lacs+du+Connemara+Michel+Sardou+karaoke+instrumental",
+    "searchQueries": [
+      "Les lacs du Connemara Michel Sardou karaoke instrumental",
+      "Les lacs du Connemara Michel Sardou playback",
+      "Les lacs du Connemara Michel Sardou backing track"
+    ],
+    "outputPath": "songs/lacs-connemara/audio.mp3"
+  },
+  {
+    "id": "je-vais-t-aimer",
+    "title": "Je vais t'aimer",
+    "artist": "Michel Sardou",
+    "searchUrl": "https://www.youtube.com/results?search_query=Je+vais+t'aimer+Michel+Sardou+karaoke+instrumental",
+    "searchQueries": [
+      "Je vais t'aimer Michel Sardou karaoke instrumental",
+      "Je vais t'aimer Michel Sardou playback",
+      "Je vais t'aimer Michel Sardou backing track"
+    ],
+    "outputPath": "songs/je-vais-t-aimer/audio.mp3"
+  },
+  {
+    "id": "etre-une-femme",
+    "title": "Être une femme",
+    "artist": "Michel Sardou",
+    "searchUrl": "https://www.youtube.com/results?search_query=Être+une+femme+Michel+Sardou+karaoke+instrumental",
+    "searchQueries": [
+      "Être une femme Michel Sardou karaoke instrumental",
+      "Être une femme Michel Sardou playback",
+      "Être une femme Michel Sardou backing track"
+    ],
+    "outputPath": "songs/etre-une-femme/audio.mp3"
+  },
+  {
+    "id": "villes-solitude",
+    "title": "Les villes de solitude",
+    "artist": "Michel Sardou",
+    "searchUrl": "https://www.youtube.com/results?search_query=Les+villes+de+solitude+Michel+Sardou+karaoke+instrumental",
+    "searchQueries": [
+      "Les villes de solitude Michel Sardou karaoke instrumental",
+      "Les villes de solitude Michel Sardou playback",
+      "Les villes de solitude Michel Sardou backing track"
+    ],
+    "outputPath": "songs/villes-solitude/audio.mp3"
+  },
+  {
+    "id": "maladie-amour",
+    "title": "La maladie d'amour",
+    "artist": "Michel Sardou",
+    "searchUrl": "https://www.youtube.com/results?search_query=La+maladie+d'amour+Michel+Sardou+karaoke+instrumental",
+    "searchQueries": [
+      "La maladie d'amour Michel Sardou karaoke instrumental",
+      "La maladie d'amour Michel Sardou playback",
+      "La maladie d'amour Michel Sardou backing track"
+    ],
+    "outputPath": "songs/maladie-amour/audio.mp3"
+  },
+  {
+    "id": "envole-moi",
+    "title": "Envole-moi",
+    "artist": "Jean-Jacques Goldman",
+    "searchUrl": "https://www.youtube.com/results?search_query=Envole-moi+Jean-Jacques+Goldman+karaoke+instrumental",
+    "searchQueries": [
+      "Envole-moi Jean-Jacques Goldman karaoke instrumental",
+      "Envole-moi Jean-Jacques Goldman playback",
+      "Envole-moi Jean-Jacques Goldman backing track"
+    ],
+    "outputPath": "songs/envole-moi/audio.mp3"
+  },
+  {
+    "id": "je-marche-seul",
+    "title": "Je marche seul",
+    "artist": "Jean-Jacques Goldman",
+    "searchUrl": "https://www.youtube.com/results?search_query=Je+marche+seul+Jean-Jacques+Goldman+karaoke+instrumental",
+    "searchQueries": [
+      "Je marche seul Jean-Jacques Goldman karaoke instrumental",
+      "Je marche seul Jean-Jacques Goldman playback",
+      "Je marche seul Jean-Jacques Goldman backing track"
+    ],
+    "outputPath": "songs/je-marche-seul/audio.mp3"
+  },
+  {
+    "id": "la-bas",
+    "title": "Là-bas",
+    "artist": "Jean-Jacques Goldman",
+    "searchUrl": "https://www.youtube.com/results?search_query=Là-bas+Jean-Jacques+Goldman+karaoke+instrumental",
+    "searchQueries": [
+      "Là-bas Jean-Jacques Goldman karaoke instrumental",
+      "Là-bas Jean-Jacques Goldman playback",
+      "Là-bas Jean-Jacques Goldman backing track"
+    ],
+    "outputPath": "songs/la-bas/audio.mp3"
+  },
+  {
+    "id": "il-suffira",
+    "title": "Il suffira d'un signe",
+    "artist": "Jean-Jacques Goldman",
+    "searchUrl": "https://www.youtube.com/results?search_query=Il+suffira+d'un+signe+Jean-Jacques+Goldman+karaoke+instrumental",
+    "searchQueries": [
+      "Il suffira d'un signe Jean-Jacques Goldman karaoke instrumental",
+      "Il suffira d'un signe Jean-Jacques Goldman playback",
+      "Il suffira d'un signe Jean-Jacques Goldman backing track"
+    ],
+    "outputPath": "songs/il-suffira/audio.mp3"
+  },
+  {
+    "id": "pas-la",
+    "title": "Pas là",
+    "artist": "Jean-Jacques Goldman",
+    "searchUrl": "https://www.youtube.com/results?search_query=Pas+là+Jean-Jacques+Goldman+karaoke+instrumental",
+    "searchQueries": [
+      "Pas là Jean-Jacques Goldman karaoke instrumental",
+      "Pas là Jean-Jacques Goldman playback",
+      "Pas là Jean-Jacques Goldman backing track"
+    ],
+    "outputPath": "songs/pas-la/audio.mp3"
+  },
+  {
+    "id": "encore-un-matin",
+    "title": "Encore un matin",
+    "artist": "Jean-Jacques Goldman",
+    "searchUrl": "https://www.youtube.com/results?search_query=Encore+un+matin+Jean-Jacques+Goldman+karaoke+instrumental",
+    "searchQueries": [
+      "Encore un matin Jean-Jacques Goldman karaoke instrumental",
+      "Encore un matin Jean-Jacques Goldman playback",
+      "Encore un matin Jean-Jacques Goldman backing track"
+    ],
+    "outputPath": "songs/encore-un-matin/audio.mp3"
+  },
+  {
+    "id": "quand-musique-bonne",
+    "title": "Quand la musique est bonne",
+    "artist": "Jean-Jacques Goldman",
+    "searchUrl": "https://www.youtube.com/results?search_query=Quand+la+musique+est+bonne+Jean-Jacques+Goldman+karaoke+instrumental",
+    "searchQueries": [
+      "Quand la musique est bonne Jean-Jacques Goldman karaoke instrumental",
+      "Quand la musique est bonne Jean-Jacques Goldman playback",
+      "Quand la musique est bonne Jean-Jacques Goldman backing track"
+    ],
+    "outputPath": "songs/quand-musique-bonne/audio.mp3"
+  },
+  {
+    "id": "cest-ta-chance",
+    "title": "C'est ta chance",
+    "artist": "Jean-Jacques Goldman",
+    "searchUrl": "https://www.youtube.com/results?search_query=C'est+ta+chance+Jean-Jacques+Goldman+karaoke+instrumental",
+    "searchQueries": [
+      "C'est ta chance Jean-Jacques Goldman karaoke instrumental",
+      "C'est ta chance Jean-Jacques Goldman playback",
+      "C'est ta chance Jean-Jacques Goldman backing track"
+    ],
+    "outputPath": "songs/cest-ta-chance/audio.mp3"
+  },
+  {
+    "id": "mistral-gagnant",
+    "title": "Mistral gagnant",
+    "artist": "Renaud",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mistral+gagnant+Renaud+karaoke+instrumental",
+    "searchQueries": [
+      "Mistral gagnant Renaud karaoke instrumental",
+      "Mistral gagnant Renaud playback",
+      "Mistral gagnant Renaud backing track"
+    ],
+    "outputPath": "songs/mistral-gagnant/audio.mp3"
+  },
+  {
+    "id": "laisse-beton",
+    "title": "Laisse béton",
+    "artist": "Renaud",
+    "searchUrl": "https://www.youtube.com/results?search_query=Laisse+béton+Renaud+karaoke+instrumental",
+    "searchQueries": [
+      "Laisse béton Renaud karaoke instrumental",
+      "Laisse béton Renaud playback",
+      "Laisse béton Renaud backing track"
+    ],
+    "outputPath": "songs/laisse-beton/audio.mp3"
+  },
+  {
+    "id": "des-que-vent",
+    "title": "Dès que le vent soufflera",
+    "artist": "Renaud",
+    "searchUrl": "https://www.youtube.com/results?search_query=Dès+que+le+vent+soufflera+Renaud+karaoke+instrumental",
+    "searchQueries": [
+      "Dès que le vent soufflera Renaud karaoke instrumental",
+      "Dès que le vent soufflera Renaud playback",
+      "Dès que le vent soufflera Renaud backing track"
+    ],
+    "outputPath": "songs/des-que-vent/audio.mp3"
+  },
+  {
+    "id": "manhattan-kaboul",
+    "title": "Manhattan-Kaboul",
+    "artist": "Renaud",
+    "searchUrl": "https://www.youtube.com/results?search_query=Manhattan-Kaboul+Renaud+karaoke+instrumental",
+    "searchQueries": [
+      "Manhattan-Kaboul Renaud karaoke instrumental",
+      "Manhattan-Kaboul Renaud playback",
+      "Manhattan-Kaboul Renaud backing track"
+    ],
+    "outputPath": "songs/manhattan-kaboul/audio.mp3"
+  },
+  {
+    "id": "foule-sentimentale",
+    "title": "Foule sentimentale",
+    "artist": "Alain Souchon",
+    "searchUrl": "https://www.youtube.com/results?search_query=Foule+sentimentale+Alain+Souchon+karaoke+instrumental",
+    "searchQueries": [
+      "Foule sentimentale Alain Souchon karaoke instrumental",
+      "Foule sentimentale Alain Souchon playback",
+      "Foule sentimentale Alain Souchon backing track"
+    ],
+    "outputPath": "songs/foule-sentimentale/audio.mp3"
+  },
+  {
+    "id": "allo-maman",
+    "title": "Allô maman bobo",
+    "artist": "Alain Souchon",
+    "searchUrl": "https://www.youtube.com/results?search_query=Allô+maman+bobo+Alain+Souchon+karaoke+instrumental",
+    "searchQueries": [
+      "Allô maman bobo Alain Souchon karaoke instrumental",
+      "Allô maman bobo Alain Souchon playback",
+      "Allô maman bobo Alain Souchon backing track"
+    ],
+    "outputPath": "songs/allo-maman/audio.mp3"
+  },
+  {
+    "id": "telephone-pleure",
+    "title": "Le téléphone pleure",
+    "artist": "Alain Souchon",
+    "searchUrl": "https://www.youtube.com/results?search_query=Le+téléphone+pleure+Alain+Souchon+karaoke+instrumental",
+    "searchQueries": [
+      "Le téléphone pleure Alain Souchon karaoke instrumental",
+      "Le téléphone pleure Alain Souchon playback",
+      "Le téléphone pleure Alain Souchon backing track"
+    ],
+    "outputPath": "songs/telephone-pleure/audio.mp3"
+  },
+  {
+    "id": "rame",
+    "title": "Rame",
+    "artist": "Alain Souchon",
+    "searchUrl": "https://www.youtube.com/results?search_query=Rame+Alain+Souchon+karaoke+instrumental",
+    "searchQueries": [
+      "Rame Alain Souchon karaoke instrumental",
+      "Rame Alain Souchon playback",
+      "Rame Alain Souchon backing track"
+    ],
+    "outputPath": "songs/rame/audio.mp3"
+  },
+  {
+    "id": "le-sud",
+    "title": "Le sud",
+    "artist": "Nino Ferrer",
+    "searchUrl": "https://www.youtube.com/results?search_query=Le+sud+Nino+Ferrer+karaoke+instrumental",
+    "searchQueries": [
+      "Le sud Nino Ferrer karaoke instrumental",
+      "Le sud Nino Ferrer playback",
+      "Le sud Nino Ferrer backing track"
+    ],
+    "outputPath": "songs/le-sud/audio.mp3"
+  },
+  {
+    "id": "mirza",
+    "title": "Mirza",
+    "artist": "Nino Ferrer",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mirza+Nino+Ferrer+karaoke+instrumental",
+    "searchQueries": [
+      "Mirza Nino Ferrer karaoke instrumental",
+      "Mirza Nino Ferrer playback",
+      "Mirza Nino Ferrer backing track"
+    ],
+    "outputPath": "songs/mirza/audio.mp3"
+  },
+  {
+    "id": "joe-taxi",
+    "title": "Joe le taxi",
+    "artist": "Vanessa Paradis",
+    "searchUrl": "https://www.youtube.com/results?search_query=Joe+le+taxi+Vanessa+Paradis+karaoke+instrumental",
+    "searchQueries": [
+      "Joe le taxi Vanessa Paradis karaoke instrumental",
+      "Joe le taxi Vanessa Paradis playback",
+      "Joe le taxi Vanessa Paradis backing track"
+    ],
+    "outputPath": "songs/joe-taxi/audio.mp3"
+  },
+  {
+    "id": "marilyn-john",
+    "title": "Marilyn et John",
+    "artist": "Vanessa Paradis",
+    "searchUrl": "https://www.youtube.com/results?search_query=Marilyn+et+John+Vanessa+Paradis+karaoke+instrumental",
+    "searchQueries": [
+      "Marilyn et John Vanessa Paradis karaoke instrumental",
+      "Marilyn et John Vanessa Paradis playback",
+      "Marilyn et John Vanessa Paradis backing track"
+    ],
+    "outputPath": "songs/marilyn-john/audio.mp3"
+  },
+  {
+    "id": "be-my-baby",
+    "title": "Be my baby",
+    "artist": "Vanessa Paradis",
+    "searchUrl": "https://www.youtube.com/results?search_query=Be+my+baby+Vanessa+Paradis+karaoke+instrumental",
+    "searchQueries": [
+      "Be my baby Vanessa Paradis karaoke instrumental",
+      "Be my baby Vanessa Paradis playback",
+      "Be my baby Vanessa Paradis backing track"
+    ],
+    "outputPath": "songs/be-my-baby/audio.mp3"
+  },
+  {
+    "id": "on-sattache",
+    "title": "On s'attache",
+    "artist": "Christophe Maé",
+    "searchUrl": "https://www.youtube.com/results?search_query=On+s'attache+Christophe+Maé+karaoke+instrumental",
+    "searchQueries": [
+      "On s'attache Christophe Maé karaoke instrumental",
+      "On s'attache Christophe Maé playback",
+      "On s'attache Christophe Maé backing track"
+    ],
+    "outputPath": "songs/on-sattache/audio.mp3"
+  },
+  {
+    "id": "belle-demoiselle",
+    "title": "Belle demoiselle",
+    "artist": "Christophe Maé",
+    "searchUrl": "https://www.youtube.com/results?search_query=Belle+demoiselle+Christophe+Maé+karaoke+instrumental",
+    "searchQueries": [
+      "Belle demoiselle Christophe Maé karaoke instrumental",
+      "Belle demoiselle Christophe Maé playback",
+      "Belle demoiselle Christophe Maé backing track"
+    ],
+    "outputPath": "songs/belle-demoiselle/audio.mp3"
+  },
+  {
+    "id": "jai-laisse",
+    "title": "J'ai laissé",
+    "artist": "Christophe Maé",
+    "searchUrl": "https://www.youtube.com/results?search_query=J'ai+laissé+Christophe+Maé+karaoke+instrumental",
+    "searchQueries": [
+      "J'ai laissé Christophe Maé karaoke instrumental",
+      "J'ai laissé Christophe Maé playback",
+      "J'ai laissé Christophe Maé backing track"
+    ],
+    "outputPath": "songs/jai-laisse/audio.mp3"
+  },
+  {
+    "id": "dingue",
+    "title": "Dingue, dingue, dingue",
+    "artist": "Christophe Maé",
+    "searchUrl": "https://www.youtube.com/results?search_query=Dingue,+dingue,+dingue+Christophe+Maé+karaoke+instrumental",
+    "searchQueries": [
+      "Dingue, dingue, dingue Christophe Maé karaoke instrumental",
+      "Dingue, dingue, dingue Christophe Maé playback",
+      "Dingue, dingue, dingue Christophe Maé backing track"
+    ],
+    "outputPath": "songs/dingue/audio.mp3"
+  },
+  {
+    "id": "papaoutai",
+    "title": "Papaoutai",
+    "artist": "Stromae",
+    "searchUrl": "https://www.youtube.com/results?search_query=Papaoutai+Stromae+karaoke+instrumental",
+    "searchQueries": [
+      "Papaoutai Stromae karaoke instrumental",
+      "Papaoutai Stromae playback",
+      "Papaoutai Stromae backing track"
+    ],
+    "outputPath": "songs/papaoutai/audio.mp3"
+  },
+  {
+    "id": "alors-on-danse",
+    "title": "Alors on danse",
+    "artist": "Stromae",
+    "searchUrl": "https://www.youtube.com/results?search_query=Alors+on+danse+Stromae+karaoke+instrumental",
+    "searchQueries": [
+      "Alors on danse Stromae karaoke instrumental",
+      "Alors on danse Stromae playback",
+      "Alors on danse Stromae backing track"
+    ],
+    "outputPath": "songs/alors-on-danse/audio.mp3"
+  },
+  {
+    "id": "formidable",
+    "title": "Formidable",
+    "artist": "Stromae",
+    "searchUrl": "https://www.youtube.com/results?search_query=Formidable+Stromae+karaoke+instrumental",
+    "searchQueries": [
+      "Formidable Stromae karaoke instrumental",
+      "Formidable Stromae playback",
+      "Formidable Stromae backing track"
+    ],
+    "outputPath": "songs/formidable/audio.mp3"
+  },
+  {
+    "id": "ta-fete",
+    "title": "Ta fête",
+    "artist": "Stromae",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ta+fête+Stromae+karaoke+instrumental",
+    "searchQueries": [
+      "Ta fête Stromae karaoke instrumental",
+      "Ta fête Stromae playback",
+      "Ta fête Stromae backing track"
+    ],
+    "outputPath": "songs/ta-fete/audio.mp3"
+  },
+  {
+    "id": "tous-les-memes",
+    "title": "Tous les mêmes",
+    "artist": "Stromae",
+    "searchUrl": "https://www.youtube.com/results?search_query=Tous+les+mêmes+Stromae+karaoke+instrumental",
+    "searchQueries": [
+      "Tous les mêmes Stromae karaoke instrumental",
+      "Tous les mêmes Stromae playback",
+      "Tous les mêmes Stromae backing track"
+    ],
+    "outputPath": "songs/tous-les-memes/audio.mp3"
+  },
+  {
+    "id": "derniere-danse",
+    "title": "Dernière danse",
+    "artist": "Indila",
+    "searchUrl": "https://www.youtube.com/results?search_query=Dernière+danse+Indila+karaoke+instrumental",
+    "searchQueries": [
+      "Dernière danse Indila karaoke instrumental",
+      "Dernière danse Indila playback",
+      "Dernière danse Indila backing track"
+    ],
+    "outputPath": "songs/derniere-danse/audio.mp3"
+  },
+  {
+    "id": "tourner-vide",
+    "title": "Tourner dans le vide",
+    "artist": "Indila",
+    "searchUrl": "https://www.youtube.com/results?search_query=Tourner+dans+le+vide+Indila+karaoke+instrumental",
+    "searchQueries": [
+      "Tourner dans le vide Indila karaoke instrumental",
+      "Tourner dans le vide Indila playback",
+      "Tourner dans le vide Indila backing track"
+    ],
+    "outputPath": "songs/tourner-vide/audio.mp3"
+  },
+  {
+    "id": "avenir",
+    "title": "Avenir",
+    "artist": "Louane",
+    "searchUrl": "https://www.youtube.com/results?search_query=Avenir+Louane+karaoke+instrumental",
+    "searchQueries": [
+      "Avenir Louane karaoke instrumental",
+      "Avenir Louane playback",
+      "Avenir Louane backing track"
+    ],
+    "outputPath": "songs/avenir/audio.mp3"
+  },
+  {
+    "id": "je-veux-vivre",
+    "title": "Je veux vivre",
+    "artist": "Louane",
+    "searchUrl": "https://www.youtube.com/results?search_query=Je+veux+vivre+Louane+karaoke+instrumental",
+    "searchQueries": [
+      "Je veux vivre Louane karaoke instrumental",
+      "Je veux vivre Louane playback",
+      "Je veux vivre Louane backing track"
+    ],
+    "outputPath": "songs/je-veux-vivre/audio.mp3"
+  },
+  {
+    "id": "je-veux",
+    "title": "Je veux",
+    "artist": "Zaz",
+    "searchUrl": "https://www.youtube.com/results?search_query=Je+veux+Zaz+karaoke+instrumental",
+    "searchQueries": [
+      "Je veux Zaz karaoke instrumental",
+      "Je veux Zaz playback",
+      "Je veux Zaz backing track"
+    ],
+    "outputPath": "songs/je-veux/audio.mp3"
+  },
+  {
+    "id": "on-ira",
+    "title": "On ira",
+    "artist": "Zaz",
+    "searchUrl": "https://www.youtube.com/results?search_query=On+ira+Zaz+karaoke+instrumental",
+    "searchQueries": [
+      "On ira Zaz karaoke instrumental",
+      "On ira Zaz playback",
+      "On ira Zaz backing track"
+    ],
+    "outputPath": "songs/on-ira/audio.mp3"
+  },
+  {
+    "id": "si",
+    "title": "Si",
+    "artist": "Zaz",
+    "searchUrl": "https://www.youtube.com/results?search_query=Si+Zaz+karaoke+instrumental",
+    "searchQueries": [
+      "Si Zaz karaoke instrumental",
+      "Si Zaz playback",
+      "Si Zaz backing track"
+    ],
+    "outputPath": "songs/si/audio.mp3"
+  },
+  {
+    "id": "eblouie-nuit",
+    "title": "Éblouie par la nuit",
+    "artist": "Zaz",
+    "searchUrl": "https://www.youtube.com/results?search_query=Éblouie+par+la+nuit+Zaz+karaoke+instrumental",
+    "searchQueries": [
+      "Éblouie par la nuit Zaz karaoke instrumental",
+      "Éblouie par la nuit Zaz playback",
+      "Éblouie par la nuit Zaz backing track"
+    ],
+    "outputPath": "songs/eblouie-nuit/audio.mp3"
+  },
+  {
+    "id": "balance-ton-quoi",
+    "title": "Balance ton quoi",
+    "artist": "Angèle",
+    "searchUrl": "https://www.youtube.com/results?search_query=Balance+ton+quoi+Angèle+karaoke+instrumental",
+    "searchQueries": [
+      "Balance ton quoi Angèle karaoke instrumental",
+      "Balance ton quoi Angèle playback",
+      "Balance ton quoi Angèle backing track"
+    ],
+    "outputPath": "songs/balance-ton-quoi/audio.mp3"
+  },
+  {
+    "id": "tout-oublier",
+    "title": "Tout oublier",
+    "artist": "Angèle",
+    "searchUrl": "https://www.youtube.com/results?search_query=Tout+oublier+Angèle+karaoke+instrumental",
+    "searchQueries": [
+      "Tout oublier Angèle karaoke instrumental",
+      "Tout oublier Angèle playback",
+      "Tout oublier Angèle backing track"
+    ],
+    "outputPath": "songs/tout-oublier/audio.mp3"
+  },
+  {
+    "id": "fever",
+    "title": "Fever",
+    "artist": "Angèle & Dua Lipa",
+    "searchUrl": "https://www.youtube.com/results?search_query=Fever+Angèle+&+Dua+Lipa+karaoke+instrumental",
+    "searchQueries": [
+      "Fever Angèle & Dua Lipa karaoke instrumental",
+      "Fever Angèle & Dua Lipa playback",
+      "Fever Angèle & Dua Lipa backing track"
+    ],
+    "outputPath": "songs/fever/audio.mp3"
+  },
+  {
+    "id": "la-grenade",
+    "title": "La grenade",
+    "artist": "Clara Luciani",
+    "searchUrl": "https://www.youtube.com/results?search_query=La+grenade+Clara+Luciani+karaoke+instrumental",
+    "searchQueries": [
+      "La grenade Clara Luciani karaoke instrumental",
+      "La grenade Clara Luciani playback",
+      "La grenade Clara Luciani backing track"
+    ],
+    "outputPath": "songs/la-grenade/audio.mp3"
+  },
+  {
+    "id": "la-derniere-fois",
+    "title": "La dernière fois",
+    "artist": "Clara Luciani",
+    "searchUrl": "https://www.youtube.com/results?search_query=La+dernière+fois+Clara+Luciani+karaoke+instrumental",
+    "searchQueries": [
+      "La dernière fois Clara Luciani karaoke instrumental",
+      "La dernière fois Clara Luciani playback",
+      "La dernière fois Clara Luciani backing track"
+    ],
+    "outputPath": "songs/la-derniere-fois/audio.mp3"
+  },
+  {
+    "id": "respire-encore",
+    "title": "Respire encore",
+    "artist": "Clara Luciani",
+    "searchUrl": "https://www.youtube.com/results?search_query=Respire+encore+Clara+Luciani+karaoke+instrumental",
+    "searchQueries": [
+      "Respire encore Clara Luciani karaoke instrumental",
+      "Respire encore Clara Luciani playback",
+      "Respire encore Clara Luciani backing track"
+    ],
+    "outputPath": "songs/respire-encore/audio.mp3"
+  },
+  {
+    "id": "pas-la-vianney",
+    "title": "Pas là",
+    "artist": "Vianney",
+    "searchUrl": "https://www.youtube.com/results?search_query=Pas+là+Vianney+karaoke+instrumental",
+    "searchQueries": [
+      "Pas là Vianney karaoke instrumental",
+      "Pas là Vianney playback",
+      "Pas là Vianney backing track"
+    ],
+    "outputPath": "songs/pas-la-vianney/audio.mp3"
+  },
+  {
+    "id": "beau-papa",
+    "title": "Beau-papa",
+    "artist": "Vianney",
+    "searchUrl": "https://www.youtube.com/results?search_query=Beau-papa+Vianney+karaoke+instrumental",
+    "searchQueries": [
+      "Beau-papa Vianney karaoke instrumental",
+      "Beau-papa Vianney playback",
+      "Beau-papa Vianney backing track"
+    ],
+    "outputPath": "songs/beau-papa/audio.mp3"
+  },
+  {
+    "id": "le-reste",
+    "title": "Le reste",
+    "artist": "Vianney",
+    "searchUrl": "https://www.youtube.com/results?search_query=Le+reste+Vianney+karaoke+instrumental",
+    "searchQueries": [
+      "Le reste Vianney karaoke instrumental",
+      "Le reste Vianney playback",
+      "Le reste Vianney backing track"
+    ],
+    "outputPath": "songs/le-reste/audio.mp3"
+  },
+  {
+    "id": "vie-bon-cote",
+    "title": "La vie du bon côté",
+    "artist": "Keen'V",
+    "searchUrl": "https://www.youtube.com/results?search_query=La+vie+du+bon+côté+Keen'V+karaoke+instrumental",
+    "searchQueries": [
+      "La vie du bon côté Keen'V karaoke instrumental",
+      "La vie du bon côté Keen'V playback",
+      "La vie du bon côté Keen'V backing track"
+    ],
+    "outputPath": "songs/vie-bon-cote/audio.mp3"
+  },
+  {
+    "id": "jvoulais",
+    "title": "J'voulais",
+    "artist": "Keen'V",
+    "searchUrl": "https://www.youtube.com/results?search_query=J'voulais+Keen'V+karaoke+instrumental",
+    "searchQueries": [
+      "J'voulais Keen'V karaoke instrumental",
+      "J'voulais Keen'V playback",
+      "J'voulais Keen'V backing track"
+    ],
+    "outputPath": "songs/jvoulais/audio.mp3"
+  },
+  {
+    "id": "sapes-comme-jamais",
+    "title": "Sapés comme jamais",
+    "artist": "Maître Gims",
+    "searchUrl": "https://www.youtube.com/results?search_query=Sapés+comme+jamais+Maître+Gims+karaoke+instrumental",
+    "searchQueries": [
+      "Sapés comme jamais Maître Gims karaoke instrumental",
+      "Sapés comme jamais Maître Gims playback",
+      "Sapés comme jamais Maître Gims backing track"
+    ],
+    "outputPath": "songs/sapes-comme-jamais/audio.mp3"
+  },
+  {
+    "id": "bella",
+    "title": "Bella",
+    "artist": "Maître Gims",
+    "searchUrl": "https://www.youtube.com/results?search_query=Bella+Maître+Gims+karaoke+instrumental",
+    "searchQueries": [
+      "Bella Maître Gims karaoke instrumental",
+      "Bella Maître Gims playback",
+      "Bella Maître Gims backing track"
+    ],
+    "outputPath": "songs/bella/audio.mp3"
+  },
+  {
+    "id": "est-ce-que-tu-maimes",
+    "title": "Est-ce que tu m'aimes",
+    "artist": "Maître Gims",
+    "searchUrl": "https://www.youtube.com/results?search_query=Est-ce+que+tu+m'aimes+Maître+Gims+karaoke+instrumental",
+    "searchQueries": [
+      "Est-ce que tu m'aimes Maître Gims karaoke instrumental",
+      "Est-ce que tu m'aimes Maître Gims playback",
+      "Est-ce que tu m'aimes Maître Gims backing track"
+    ],
+    "outputPath": "songs/est-ce-que-tu-maimes/audio.mp3"
+  },
+  {
+    "id": "ma-philosophie",
+    "title": "Ma philosophie",
+    "artist": "Amel Bent",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ma+philosophie+Amel+Bent+karaoke+instrumental",
+    "searchQueries": [
+      "Ma philosophie Amel Bent karaoke instrumental",
+      "Ma philosophie Amel Bent playback",
+      "Ma philosophie Amel Bent backing track"
+    ],
+    "outputPath": "songs/ma-philosophie/audio.mp3"
+  },
+  {
+    "id": "je-veux-tout",
+    "title": "Je veux tout",
+    "artist": "Amel Bent",
+    "searchUrl": "https://www.youtube.com/results?search_query=Je+veux+tout+Amel+Bent+karaoke+instrumental",
+    "searchQueries": [
+      "Je veux tout Amel Bent karaoke instrumental",
+      "Je veux tout Amel Bent playback",
+      "Je veux tout Amel Bent backing track"
+    ],
+    "outputPath": "songs/je-veux-tout/audio.mp3"
+  },
+  {
+    "id": "amour-plage",
+    "title": "L'amour à la plage",
+    "artist": "Niagara",
+    "searchUrl": "https://www.youtube.com/results?search_query=L'amour+à+la+plage+Niagara+karaoke+instrumental",
+    "searchQueries": [
+      "L'amour à la plage Niagara karaoke instrumental",
+      "L'amour à la plage Niagara playback",
+      "L'amour à la plage Niagara backing track"
+    ],
+    "outputPath": "songs/amour-plage/audio.mp3"
+  },
+  {
+    "id": "disco",
+    "title": "D.I.S.C.O.",
+    "artist": "Ottawan",
+    "searchUrl": "https://www.youtube.com/results?search_query=D.I.S.C.O.+Ottawan+karaoke+instrumental",
+    "searchQueries": [
+      "D.I.S.C.O. Ottawan karaoke instrumental",
+      "D.I.S.C.O. Ottawan playback",
+      "D.I.S.C.O. Ottawan backing track"
+    ],
+    "outputPath": "songs/disco/audio.mp3"
+  },
+  {
+    "id": "hands-up",
+    "title": "Hands up",
+    "artist": "Ottawan",
+    "searchUrl": "https://www.youtube.com/results?search_query=Hands+up+Ottawan+karaoke+instrumental",
+    "searchQueries": [
+      "Hands up Ottawan karaoke instrumental",
+      "Hands up Ottawan playback",
+      "Hands up Ottawan backing track"
+    ],
+    "outputPath": "songs/hands-up/audio.mp3"
+  },
+  {
+    "id": "demons-minuit",
+    "title": "Les démons de minuit",
+    "artist": "Images",
+    "searchUrl": "https://www.youtube.com/results?search_query=Les+démons+de+minuit+Images+karaoke+instrumental",
+    "searchQueries": [
+      "Les démons de minuit Images karaoke instrumental",
+      "Les démons de minuit Images playback",
+      "Les démons de minuit Images backing track"
+    ],
+    "outputPath": "songs/demons-minuit/audio.mp3"
+  },
+  {
+    "id": "voyage-voyage",
+    "title": "Voyage, voyage",
+    "artist": "Desireless",
+    "searchUrl": "https://www.youtube.com/results?search_query=Voyage,+voyage+Desireless+karaoke+instrumental",
+    "searchQueries": [
+      "Voyage, voyage Desireless karaoke instrumental",
+      "Voyage, voyage Desireless playback",
+      "Voyage, voyage Desireless backing track"
+    ],
+    "outputPath": "songs/voyage-voyage/audio.mp3"
+  },
+  {
+    "id": "ca-plane",
+    "title": "Ça plane pour moi",
+    "artist": "Plastic Bertrand",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ça+plane+pour+moi+Plastic+Bertrand+karaoke+instrumental",
+    "searchQueries": [
+      "Ça plane pour moi Plastic Bertrand karaoke instrumental",
+      "Ça plane pour moi Plastic Bertrand playback",
+      "Ça plane pour moi Plastic Bertrand backing track"
+    ],
+    "outputPath": "songs/ca-plane/audio.mp3"
+  },
+  {
+    "id": "sunlights-tropiques",
+    "title": "Les sunlights des tropiques",
+    "artist": "Gilbert Montagné",
+    "searchUrl": "https://www.youtube.com/results?search_query=Les+sunlights+des+tropiques+Gilbert+Montagné+karaoke+instrumental",
+    "searchQueries": [
+      "Les sunlights des tropiques Gilbert Montagné karaoke instrumental",
+      "Les sunlights des tropiques Gilbert Montagné playback",
+      "Les sunlights des tropiques Gilbert Montagné backing track"
+    ],
+    "outputPath": "songs/sunlights-tropiques/audio.mp3"
+  },
+  {
+    "id": "on-va-saimer",
+    "title": "On va s'aimer",
+    "artist": "Gilbert Montagné",
+    "searchUrl": "https://www.youtube.com/results?search_query=On+va+s'aimer+Gilbert+Montagné+karaoke+instrumental",
+    "searchQueries": [
+      "On va s'aimer Gilbert Montagné karaoke instrumental",
+      "On va s'aimer Gilbert Montagné playback",
+      "On va s'aimer Gilbert Montagné backing track"
+    ],
+    "outputPath": "songs/on-va-saimer/audio.mp3"
+  },
+  {
+    "id": "mademoiselle-blues",
+    "title": "Mademoiselle chante le blues",
+    "artist": "Patricia Kaas",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mademoiselle+chante+le+blues+Patricia+Kaas+karaoke+instrumental",
+    "searchQueries": [
+      "Mademoiselle chante le blues Patricia Kaas karaoke instrumental",
+      "Mademoiselle chante le blues Patricia Kaas playback",
+      "Mademoiselle chante le blues Patricia Kaas backing track"
+    ],
+    "outputPath": "songs/mademoiselle-blues/audio.mp3"
+  },
+  {
+    "id": "le-chanteur",
+    "title": "Le chanteur",
+    "artist": "Daniel Balavoine",
+    "searchUrl": "https://www.youtube.com/results?search_query=Le+chanteur+Daniel+Balavoine+karaoke+instrumental",
+    "searchQueries": [
+      "Le chanteur Daniel Balavoine karaoke instrumental",
+      "Le chanteur Daniel Balavoine playback",
+      "Le chanteur Daniel Balavoine backing track"
+    ],
+    "outputPath": "songs/le-chanteur/audio.mp3"
+  },
+  {
+    "id": "laziza",
+    "title": "L'Aziza",
+    "artist": "Daniel Balavoine",
+    "searchUrl": "https://www.youtube.com/results?search_query=L'Aziza+Daniel+Balavoine+karaoke+instrumental",
+    "searchQueries": [
+      "L'Aziza Daniel Balavoine karaoke instrumental",
+      "L'Aziza Daniel Balavoine playback",
+      "L'Aziza Daniel Balavoine backing track"
+    ],
+    "outputPath": "songs/laziza/audio.mp3"
+  },
+  {
+    "id": "sauver-amour",
+    "title": "Sauver l'amour",
+    "artist": "Daniel Balavoine",
+    "searchUrl": "https://www.youtube.com/results?search_query=Sauver+l'amour+Daniel+Balavoine+karaoke+instrumental",
+    "searchQueries": [
+      "Sauver l'amour Daniel Balavoine karaoke instrumental",
+      "Sauver l'amour Daniel Balavoine playback",
+      "Sauver l'amour Daniel Balavoine backing track"
+    ],
+    "outputPath": "songs/sauver-amour/audio.mp3"
+  },
+  {
+    "id": "encre-yeux",
+    "title": "L'encre de tes yeux",
+    "artist": "Francis Cabrel",
+    "searchUrl": "https://www.youtube.com/results?search_query=L'encre+de+tes+yeux+Francis+Cabrel+karaoke+instrumental",
+    "searchQueries": [
+      "L'encre de tes yeux Francis Cabrel karaoke instrumental",
+      "L'encre de tes yeux Francis Cabrel playback",
+      "L'encre de tes yeux Francis Cabrel backing track"
+    ],
+    "outputPath": "songs/encre-yeux/audio.mp3"
+  },
+  {
+    "id": "je-taime-a-mourir",
+    "title": "Je l'aime à mourir",
+    "artist": "Francis Cabrel",
+    "searchUrl": "https://www.youtube.com/results?search_query=Je+l'aime+à+mourir+Francis+Cabrel+karaoke+instrumental",
+    "searchQueries": [
+      "Je l'aime à mourir Francis Cabrel karaoke instrumental",
+      "Je l'aime à mourir Francis Cabrel playback",
+      "Je l'aime à mourir Francis Cabrel backing track"
+    ],
+    "outputPath": "songs/je-taime-a-mourir/audio.mp3"
+  }
+]

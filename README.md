@@ -2,6 +2,21 @@
 
 Application web de karaoké conçue pour l'écran tactile 15" de la Tesla Model Y (2200×1300, paysage).
 
+> **100 chansons françaises incluses** avec paroles synchronisées. Pour obtenir les vraies versions instrumentales (karaoké), suis le guide rapide ci-dessous ou consulte [KARAOKE_GUIDE.md](KARAOKE_GUIDE.md).
+
+## Quick Start : Vraies chansons en 3 étapes
+
+```bash
+# 1. Installer les dépendances (yt-dlp + ffmpeg)
+install_deps.bat
+
+# 2. Télécharger les 100 instrumentaux depuis YouTube (~10-30 min)
+download_all.bat
+
+# 3. Pousser sur GitHub (le site se met à jour automatiquement)
+git add . && git commit -m "Instrumentaux" && git push
+```
+
 ## Fonctionnalités
 
 | Mode | Description |

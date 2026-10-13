@@ -70,7 +70,7 @@ class SoloMode {
 
         // Charger la musique
         try {
-            await this.audio.loadMusic(song.audioUrl);
+            await this.audio.loadMusic(song.audioUrl, song.fallbackAudioUrl);
         } catch (err) {
             console.error('Erreur chargement audio:', err);
             return false;
