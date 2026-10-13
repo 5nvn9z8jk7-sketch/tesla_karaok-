@@ -1,0 +1,9 @@
+# Tesla Karaoké - Fichiers ignorés
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+.env

@@ -1,0 +1,47 @@
+[
+    {
+        "id": "demo-joyeux-anniversaire",
+        "title": "Joyeux Anniversaire",
+        "artist": "Traditionnel",
+        "difficulty": "easy",
+        "duration": "0:30",
+        "audioUrl": "songs/demo/audio.wav",
+        "lyricsUrl": "songs/demo/lyrics.lrc"
+    },
+    {
+        "id": "demo-twinkle",
+        "title": "Twinkle Twinkle Little Star",
+        "artist": "Traditionnel",
+        "difficulty": "easy",
+        "duration": "0:30",
+        "audioUrl": "songs/demo/audio.wav",
+        "lyricsUrl": "songs/demo/lyrics.lrc"
+    },
+    {
+        "id": "demo-happy-birthday-en",
+        "title": "Happy Birthday (EN)",
+        "artist": "Traditionnel",
+        "difficulty": "easy",
+        "duration": "0:30",
+        "audioUrl": "songs/demo/audio.wav",
+        "lyricsUrl": "songs/demo/lyrics.lrc"
+    },
+    {
+        "id": "demo- brotherhood",
+        "title": "La Tribu",
+        "artist": "Demo Original",
+        "difficulty": "medium",
+        "duration": "0:45",
+        "audioUrl": "songs/demo/audio.wav",
+        "lyricsUrl": "songs/demo/lyrics.lrc"
+    },
+    {
+        "id": "demo-electric-dreams",
+        "title": "Electric Dreams",
+        "artist": "Demo Original",
+        "difficulty": "hard",
+        "duration": "0:40",
+        "audioUrl": "songs/demo/audio.wav",
+        "lyricsUrl": "songs/demo/lyrics.lrc"
+    }
+]

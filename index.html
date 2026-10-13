@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Tesla Karaoké Party</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- ÉCRAN : MENU PRINCIPAL -->
+        <div id="screen-menu" class="screen active">
+            <div class="logo">
+                <h1>TESLA KARAOKÉ</h1>
+                <p class="tagline">Party in your Model Y</p>
+            </div>
+            <div class="menu-buttons">
+                <button class="btn btn-mode" data-mode="solo">
+                    <span class="btn-icon">🎤</span>
+                    <span class="btn-label">Solo</span>
+                    <span class="btn-desc">Chante et score ton interprétation</span>
+                </button>
+                <button class="btn btn-mode" data-mode="duel">
+                    <span class="btn-icon">⚔️</span>
+                    <span class="btn-label">Duel</span>
+                    <span class="btn-desc">Affronte un ami, 2 micros</span>
+                </button>
+                <button class="btn btn-mode" data-mode="blindtest">
+                    <span class="btn-icon">🎧</span>
+                    <span class="btn-label">Blind Test</span>
+                    <span class="btn-desc">Devine le titre à l'oreille</span>
+                </button>
+                <button class="btn btn-mode" data-mode="freestyle">
+                    <span class="btn-icon">🎸</span>
+                    <span class="btn-label">Free Style</span>
+                    <span class="btn-desc">Improvise sur un beat</span>
+                </button>
+            </div>
+            <div class="menu-footer">
+                <button id="btn-settings" class="btn btn-small">⚙️ Réglages</button>
+                <button id="btn-about" class="btn btn-small">ℹ️ À propos</button>
+            </div>
+        </div>
+
+        <!-- ÉCRAN : SÉLECTION CHANSON (Solo / Duel) -->
+        <div id="screen-song-select" class="screen">
+            <div class="screen-header">
+                <button class="btn btn-back" data-back="menu">← Retour</button>
+                <h2 id="select-title">Choisis ta chanson</h2>
+            </div>
+            <div id="song-list" class="song-list">
+                <!-- Liste générée en JS -->
+            </div>
+        </div>
+
+        <!-- ÉCRAN : SOLO -->
+        <div id="screen-solo" class="screen">
+            <div class="game-header">
+                <button class="btn btn-back" data-back="menu">← Quitter</button>
+                <div class="game-info">
+                    <span id="solo-song-title" class="song-title">-</span>
+                    <span id="solo-score" class="score">Score: 0</span>
+                </div>
+                <div class="game-controls">
+                    <button id="btn-mic-solo" class="btn btn-mic">🎤 Micro ON</button>
+                </div>
+            </div>
+            <div class="karaoke-container">
+                <div id="lyrics-display" class="lyrics-display">
+                    <p class="lyric-line upcoming">Prépare-toi...</p>
+                    <p class="lyric-line upcoming">La chanson va commencer</p>
+                </div>
+                <div class="progress-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+                <div class="audio-visualizer">
+                    <canvas id="visualizer-solo" width="800" height="100"></canvas>
+                </div>
+            </div>
+            <div class="game-footer">
+                <div id="solo-feedback" class="feedback"></div>
+            </div>
+        </div>
+
+        <!-- ÉCRAN : DUEL -->
+        <div id="screen-duel" class="screen">
+            <div class="game-header">
+                <button class="btn btn-back" data-back="menu">← Quitter</button>
+                <div class="game-info">
+                    <span id="duel-song-title" class="song-title">-</span>
+                </div>
+            </div>
+            <div class="duel-container">
+                <div class="player-panel player-1" id="panel-p1">
+                    <div class="player-name">Joueur 1</div>
+                    <div class="player-score" id="score-p1">0</div>
+                    <div class="player-indicator" id="indicator-p1">À toi de chanter</div>
+                    <canvas id="visualizer-p1" width="400" height="60"></canvas>
+                </div>
+                <div class="duel-center">
+                    <div id="duel-lyrics" class="lyrics-display small">
+                        <p class="lyric-line upcoming">En attente...</p>
+                    </div>
+                    <div class="progress-container">
+                        <div id="progress-bar-duel" class="progress-bar"></div>
+                    </div>
+                    <div id="duel-turn" class="turn-indicator">Tour de J1</div>
+                </div>
+                <div class="player-panel player-2" id="panel-p2">
+                    <div class="player-name">Joueur 2</div>
+                    <div class="player-score" id="score-p2">0</div>
+                    <div class="player-indicator" id="indicator-p2">En attente</div>
+                    <canvas id="visualizer-p2" width="400" height="60"></canvas>
+                </div>
+            </div>
+            <div class="game-footer">
+                <button id="btn-mic-p1" class="btn btn-mic active">🎤 J1 ON</button>
+                <button id="btn-mic-p2" class="btn btn-mic">🎤 J2 OFF</button>
+            </div>
+        </div>
+
+        <!-- ÉCRAN : BLIND TEST -->
+        <div id="screen-blindtest" class="screen">
+            <div class="game-header">
+                <button class="btn btn-back" data-back="menu">← Quitter</button>
+                <div class="game-info">
+                    <span class="song-title">Blind Test</span>
+                    <span id="blind-round" class="score">Manche 1/5</span>
+                </div>
+            </div>
+            <div class="blindtest-container">
+                <div class="blind-visual">
+                    <div class="equalizer" id="blind-equalizer">
+                        <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+                        <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+                        <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+                    </div>
+                    <p class="blind-hint">Écoute l'extrait...</p>
+                </div>
+                <div id="blind-choices" class="blind-choices">
+                    <!-- Boutons de réponses générés en JS -->
+                </div>
+                <div id="blind-feedback" class="feedback"></div>
+                <div id="blind-score" class="blind-score">Score: 0 / 5</div>
+            </div>
+        </div>
+
+        <!-- ÉCRAN : FREE STYLE -->
+        <div id="screen-freestyle" class="screen">
+            <div class="game-header">
+                <button class="btn btn-back" data-back="menu">← Quitter</button>
+                <div class="game-info">
+                    <span class="song-title">Free Style</span>
+                    <span id="freestyle-timer" class="score">0:00</span>
+                </div>
+                <div class="game-controls">
+                    <button id="btn-mic-freestyle" class="btn btn-mic">🎤 Micro ON</button>
+                    <button id="btn-record" class="btn btn-record">⏺️ Record</button>
+                </div>
+            </div>
+            <div class="freestyle-container">
+                <div class="beat-selector">
+                    <button class="btn btn-beat active" data-beat="hiphop">Hip-Hop</button>
+                    <button class="btn btn-beat" data-beat="rock">Rock</button>
+                    <button class="btn btn-beat" data-beat="electro">Électro</button>
+                    <button class="btn btn-beat" data-beat="pop">Pop</button>
+                </div>
+                <canvas id="visualizer-freestyle" width="800" height="150"></canvas>
+                <div class="effects-panel">
+                    <button class="btn btn-effect" data-effect="none">Normal</button>
+                    <button class="btn btn-effect" data-effect="echo">Écho</button>
+                    <button class="btn btn-effect" data-effect="robot">Robot</button>
+                    <button class="btn btn-effect" data-effect="distortion">Distortion</button>
+                </div>
+                <div id="freestyle-lyrics-hint" class="lyrics-hint">
+                    Improvise sur le beat ! Les paroles s'affichent ici quand tu chantes.
+                </div>
+            </div>
+        </div>
+
+        <!-- ÉCRAN : RÉSULTATS -->
+        <div id="screen-results" class="screen">
+            <div class="results-container">
+                <h2 id="results-title">Résultats</h2>
+                <div id="results-content" class="results-content"></div>
+                <div class="results-stars" id="results-stars"></div>
+                <button class="btn btn-primary" data-back="menu">🏠 Menu principal</button>
+            </div>
+        </div>
+
+        <!-- ÉCRAN : RÉGLAGES -->
+        <div id="screen-settings" class="screen">
+            <div class="screen-header">
+                <button class="btn btn-back" data-back="menu">← Retour</button>
+                <h2>Réglages</h2>
+            </div>
+            <div class="settings-container">
+                <div class="setting-item">
+                    <label>Volume musique</label>
+                    <input type="range" id="setting-volume-music" min="0" max="100" value="80">
+                </div>
+                <div class="setting-item">
+                    <label>Volume micro</label>
+                    <input type="range" id="setting-volume-mic" min="0" max="100" value="60">
+                </div>
+                <div class="setting-item">
+                    <label>Taille des paroles</label>
+                    <select id="setting-lyrics-size">
+                        <option value="normal">Normal</option>
+                        <option value="large">Grand</option>
+                        <option value="xlarge">Très grand</option>
+                    </select>
+                </div>
+                <div class="setting-item">
+                    <label>Thème</label>
+                    <select id="setting-theme">
+                        <option value="dark">Sombre (conduite nuit)</option>
+                        <option value="neon">Néon (fun)</option>
+                        <option value="retro">Rétro</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- ÉCRAN : À PROPOS -->
+        <div id="screen-about" class="screen">
+            <div class="screen-header">
+                <button class="btn btn-back" data-back="menu">← Retour</button>
+                <h2>À propos</h2>
+            </div>
+            <div class="about-container">
+                <h3>Tesla Karaoké Party</h3>
+                <p>Application web de karaoké conçue pour l'écran tactile 15" de la Tesla Model Y.</p>
+                <p>Version 1.0.0</p>
+                <p>Fonctionne hors-ligne après premier chargement.</p>
+                <p class="tech-stack">HTML5 • CSS3 • JavaScript • Web Audio API</p>
+            </div>
+        </div>
+
+        <!-- OVERLAY : PERMISSION MICRO -->
+        <div id="overlay-mic-permission" class="overlay">
+            <div class="overlay-content">
+                <h3>🎤 Accès au micro</h3>
+                <p>Tesla Karaoké a besoin d'accéder au micro pour fonctionner.</p>
+                <p>Autorise l'accès dans ton navigateur.</p>
+                <button id="btn-mic-retry" class="btn btn-primary">Réessayer</button>
+            </div>
+        </div>
+
+        <!-- OVERLAY : CHARGEMENT -->
+        <div id="overlay-loading" class="overlay hidden">
+            <div class="overlay-content">
+                <div class="spinner"></div>
+                <p>Chargement...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/lyrics-parser.js"></script>
+    <script src="js/audio-engine.js"></script>
+    <script src="js/scoring.js"></script>
+    <script src="js/games/solo.js"></script>
+    <script src="js/games/duel.js"></script>
+    <script src="js/games/blindtest.js"></script>
+    <script src="js/games/freestyle.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
