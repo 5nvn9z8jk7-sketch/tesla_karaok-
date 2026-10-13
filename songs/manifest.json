@@ -1,47 +1,902 @@
 [
     {
-        "id": "demo-joyeux-anniversaire",
-        "title": "Joyeux Anniversaire",
-        "artist": "Traditionnel",
-        "difficulty": "easy",
-        "duration": "0:30",
-        "audioUrl": "songs/demo/audio.wav",
-        "lyricsUrl": "songs/demo/lyrics.lrc"
-    },
-    {
-        "id": "demo-twinkle",
-        "title": "Twinkle Twinkle Little Star",
-        "artist": "Traditionnel",
-        "difficulty": "easy",
-        "duration": "0:30",
-        "audioUrl": "songs/demo/audio.wav",
-        "lyricsUrl": "songs/demo/lyrics.lrc"
-    },
-    {
-        "id": "demo-happy-birthday-en",
-        "title": "Happy Birthday (EN)",
-        "artist": "Traditionnel",
-        "difficulty": "easy",
-        "duration": "0:30",
-        "audioUrl": "songs/demo/audio.wav",
-        "lyricsUrl": "songs/demo/lyrics.lrc"
-    },
-    {
-        "id": "demo- brotherhood",
-        "title": "La Tribu",
-        "artist": "Demo Original",
+        "id": "vie-en-rose",
+        "title": "La Vie en Rose",
+        "artist": "Édith Piaf",
         "difficulty": "medium",
-        "duration": "0:45",
-        "audioUrl": "songs/demo/audio.wav",
-        "lyricsUrl": "songs/demo/lyrics.lrc"
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/vie-en-rose/lyrics.lrc"
     },
     {
-        "id": "demo-electric-dreams",
-        "title": "Electric Dreams",
-        "artist": "Demo Original",
+        "id": "ne-regrette-rien",
+        "title": "Non, je ne regrette rien",
+        "artist": "Édith Piaf",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/ne-regrette-rien/lyrics.lrc"
+    },
+    {
+        "id": "sous-ciel-paris",
+        "title": "Sous le ciel de Paris",
+        "artist": "Édith Piaf",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/sous-ciel-paris/lyrics.lrc"
+    },
+    {
+        "id": "milord",
+        "title": "Milord",
+        "artist": "Édith Piaf",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/milord/lyrics.lrc"
+    },
+    {
+        "id": "hymne-amour",
+        "title": "L'hymne à l'amour",
+        "artist": "Édith Piaf",
         "difficulty": "hard",
-        "duration": "0:40",
-        "audioUrl": "songs/demo/audio.wav",
-        "lyricsUrl": "songs/demo/lyrics.lrc"
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/hymne-amour/lyrics.lrc"
+    },
+    {
+        "id": "boheme",
+        "title": "La Bohème",
+        "artist": "Charles Aznavour",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/boheme/lyrics.lrc"
+    },
+    {
+        "id": "emmenez-moi",
+        "title": "Emmenez-moi",
+        "artist": "Charles Aznavour",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/emmenez-moi/lyrics.lrc"
+    },
+    {
+        "id": "hier-encore",
+        "title": "Hier encore",
+        "artist": "Charles Aznavour",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/hier-encore/lyrics.lrc"
+    },
+    {
+        "id": "la-mamma",
+        "title": "La Mamma",
+        "artist": "Charles Aznavour",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/la-mamma/lyrics.lrc"
+    },
+    {
+        "id": "she",
+        "title": "She",
+        "artist": "Charles Aznavour",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/she/lyrics.lrc"
+    },
+    {
+        "id": "ete-indien",
+        "title": "L'été indien",
+        "artist": "Joe Dassin",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/ete-indien/lyrics.lrc"
+    },
+    {
+        "id": "champs-elysees",
+        "title": "Les Champs-Élysées",
+        "artist": "Joe Dassin",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/champs-elysees/lyrics.lrc"
+    },
+    {
+        "id": "salut-amoureux",
+        "title": "Salut les amoureux",
+        "artist": "Joe Dassin",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/salut-amoureux/lyrics.lrc"
+    },
+    {
+        "id": "petit-pain",
+        "title": "Le petit pain au chocolat",
+        "artist": "Joe Dassin",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/petit-pain/lyrics.lrc"
+    },
+    {
+        "id": "siffler-colline",
+        "title": "Siffler sur la colline",
+        "artist": "Joe Dassin",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/siffler-colline/lyrics.lrc"
+    },
+    {
+        "id": "feuilles-mortes",
+        "title": "Les feuilles mortes",
+        "artist": "Yves Montand",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/feuilles-mortes/lyrics.lrc"
+    },
+    {
+        "id": "cest-si-bon",
+        "title": "C'est si bon",
+        "artist": "Yves Montand",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/cest-si-bon/lyrics.lrc"
+    },
+    {
+        "id": "la-mer",
+        "title": "La mer",
+        "artist": "Charles Trenet",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/la-mer/lyrics.lrc"
+    },
+    {
+        "id": "douce-france",
+        "title": "Douce France",
+        "artist": "Charles Trenet",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/douce-france/lyrics.lrc"
+    },
+    {
+        "id": "boum",
+        "title": "Boum !",
+        "artist": "Charles Trenet",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/boum/lyrics.lrc"
+    },
+    {
+        "id": "poupee-cire",
+        "title": "Poupée de cire, poupée de son",
+        "artist": "France Gall",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/poupee-cire/lyrics.lrc"
+    },
+    {
+        "id": "ella-elle-la",
+        "title": "Ella, elle l'a",
+        "artist": "France Gall",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/ella-elle-la/lyrics.lrc"
+    },
+    {
+        "id": "babacar",
+        "title": "Babacar",
+        "artist": "France Gall",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/babacar/lyrics.lrc"
+    },
+    {
+        "id": "diego",
+        "title": "Diego, libre dans sa tête",
+        "artist": "France Gall",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/diego/lyrics.lrc"
+    },
+    {
+        "id": "groupie-pianiste",
+        "title": "La groupie du pianiste",
+        "artist": "Michel Berger",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/groupie-pianiste/lyrics.lrc"
+    },
+    {
+        "id": "quelques-mots",
+        "title": "Quelques mots d'amour",
+        "artist": "Michel Berger",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/quelques-mots/lyrics.lrc"
+    },
+    {
+        "id": "peu-de-blues",
+        "title": "Un peu de blues",
+        "artist": "Michel Berger",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/peu-de-blues/lyrics.lrc"
+    },
+    {
+        "id": "lacs-connemara",
+        "title": "Les lacs du Connemara",
+        "artist": "Michel Sardou",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/lacs-connemara/lyrics.lrc"
+    },
+    {
+        "id": "je-vais-t-aimer",
+        "title": "Je vais t'aimer",
+        "artist": "Michel Sardou",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/je-vais-t-aimer/lyrics.lrc"
+    },
+    {
+        "id": "etre-une-femme",
+        "title": "Être une femme",
+        "artist": "Michel Sardou",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/etre-une-femme/lyrics.lrc"
+    },
+    {
+        "id": "villes-solitude",
+        "title": "Les villes de solitude",
+        "artist": "Michel Sardou",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/villes-solitude/lyrics.lrc"
+    },
+    {
+        "id": "maladie-amour",
+        "title": "La maladie d'amour",
+        "artist": "Michel Sardou",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/maladie-amour/lyrics.lrc"
+    },
+    {
+        "id": "envole-moi",
+        "title": "Envole-moi",
+        "artist": "Jean-Jacques Goldman",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/envole-moi/lyrics.lrc"
+    },
+    {
+        "id": "je-marche-seul",
+        "title": "Je marche seul",
+        "artist": "Jean-Jacques Goldman",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/je-marche-seul/lyrics.lrc"
+    },
+    {
+        "id": "la-bas",
+        "title": "Là-bas",
+        "artist": "Jean-Jacques Goldman",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/la-bas/lyrics.lrc"
+    },
+    {
+        "id": "il-suffira",
+        "title": "Il suffira d'un signe",
+        "artist": "Jean-Jacques Goldman",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/il-suffira/lyrics.lrc"
+    },
+    {
+        "id": "pas-la",
+        "title": "Pas là",
+        "artist": "Jean-Jacques Goldman",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/pas-la/lyrics.lrc"
+    },
+    {
+        "id": "encore-un-matin",
+        "title": "Encore un matin",
+        "artist": "Jean-Jacques Goldman",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/encore-un-matin/lyrics.lrc"
+    },
+    {
+        "id": "quand-musique-bonne",
+        "title": "Quand la musique est bonne",
+        "artist": "Jean-Jacques Goldman",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/quand-musique-bonne/lyrics.lrc"
+    },
+    {
+        "id": "cest-ta-chance",
+        "title": "C'est ta chance",
+        "artist": "Jean-Jacques Goldman",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/cest-ta-chance/lyrics.lrc"
+    },
+    {
+        "id": "mistral-gagnant",
+        "title": "Mistral gagnant",
+        "artist": "Renaud",
+        "difficulty": "easy",
+        "genre": "rock",
+        "audioUrl": "songs/_demo_rock.wav",
+        "lyricsUrl": "songs/mistral-gagnant/lyrics.lrc"
+    },
+    {
+        "id": "laisse-beton",
+        "title": "Laisse béton",
+        "artist": "Renaud",
+        "difficulty": "easy",
+        "genre": "rock",
+        "audioUrl": "songs/_demo_rock.wav",
+        "lyricsUrl": "songs/laisse-beton/lyrics.lrc"
+    },
+    {
+        "id": "des-que-vent",
+        "title": "Dès que le vent soufflera",
+        "artist": "Renaud",
+        "difficulty": "medium",
+        "genre": "rock",
+        "audioUrl": "songs/_demo_rock.wav",
+        "lyricsUrl": "songs/des-que-vent/lyrics.lrc"
+    },
+    {
+        "id": "manhattan-kaboul",
+        "title": "Manhattan-Kaboul",
+        "artist": "Renaud",
+        "difficulty": "hard",
+        "genre": "rock",
+        "audioUrl": "songs/_demo_rock.wav",
+        "lyricsUrl": "songs/manhattan-kaboul/lyrics.lrc"
+    },
+    {
+        "id": "foule-sentimentale",
+        "title": "Foule sentimentale",
+        "artist": "Alain Souchon",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/foule-sentimentale/lyrics.lrc"
+    },
+    {
+        "id": "allo-maman",
+        "title": "Allô maman bobo",
+        "artist": "Alain Souchon",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/allo-maman/lyrics.lrc"
+    },
+    {
+        "id": "telephone-pleure",
+        "title": "Le téléphone pleure",
+        "artist": "Alain Souchon",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/telephone-pleure/lyrics.lrc"
+    },
+    {
+        "id": "rame",
+        "title": "Rame",
+        "artist": "Alain Souchon",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/rame/lyrics.lrc"
+    },
+    {
+        "id": "le-sud",
+        "title": "Le sud",
+        "artist": "Nino Ferrer",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/le-sud/lyrics.lrc"
+    },
+    {
+        "id": "mirza",
+        "title": "Mirza",
+        "artist": "Nino Ferrer",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/mirza/lyrics.lrc"
+    },
+    {
+        "id": "joe-taxi",
+        "title": "Joe le taxi",
+        "artist": "Vanessa Paradis",
+        "difficulty": "easy",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/joe-taxi/lyrics.lrc"
+    },
+    {
+        "id": "marilyn-john",
+        "title": "Marilyn et John",
+        "artist": "Vanessa Paradis",
+        "difficulty": "medium",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/marilyn-john/lyrics.lrc"
+    },
+    {
+        "id": "be-my-baby",
+        "title": "Be my baby",
+        "artist": "Vanessa Paradis",
+        "difficulty": "easy",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/be-my-baby/lyrics.lrc"
+    },
+    {
+        "id": "on-sattache",
+        "title": "On s'attache",
+        "artist": "Christophe Maé",
+        "difficulty": "easy",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/on-sattache/lyrics.lrc"
+    },
+    {
+        "id": "belle-demoiselle",
+        "title": "Belle demoiselle",
+        "artist": "Christophe Maé",
+        "difficulty": "easy",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/belle-demoiselle/lyrics.lrc"
+    },
+    {
+        "id": "jai-laisse",
+        "title": "J'ai laissé",
+        "artist": "Christophe Maé",
+        "difficulty": "medium",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/jai-laisse/lyrics.lrc"
+    },
+    {
+        "id": "dingue",
+        "title": "Dingue, dingue, dingue",
+        "artist": "Christophe Maé",
+        "difficulty": "easy",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/dingue/lyrics.lrc"
+    },
+    {
+        "id": "papaoutai",
+        "title": "Papaoutai",
+        "artist": "Stromae",
+        "difficulty": "easy",
+        "genre": "electro",
+        "audioUrl": "songs/_demo_electro.wav",
+        "lyricsUrl": "songs/papaoutai/lyrics.lrc"
+    },
+    {
+        "id": "alors-on-danse",
+        "title": "Alors on danse",
+        "artist": "Stromae",
+        "difficulty": "easy",
+        "genre": "electro",
+        "audioUrl": "songs/_demo_electro.wav",
+        "lyricsUrl": "songs/alors-on-danse/lyrics.lrc"
+    },
+    {
+        "id": "formidable",
+        "title": "Formidable",
+        "artist": "Stromae",
+        "difficulty": "medium",
+        "genre": "electro",
+        "audioUrl": "songs/_demo_electro.wav",
+        "lyricsUrl": "songs/formidable/lyrics.lrc"
+    },
+    {
+        "id": "ta-fete",
+        "title": "Ta fête",
+        "artist": "Stromae",
+        "difficulty": "medium",
+        "genre": "electro",
+        "audioUrl": "songs/_demo_electro.wav",
+        "lyricsUrl": "songs/ta-fete/lyrics.lrc"
+    },
+    {
+        "id": "tous-les-memes",
+        "title": "Tous les mêmes",
+        "artist": "Stromae",
+        "difficulty": "medium",
+        "genre": "electro",
+        "audioUrl": "songs/_demo_electro.wav",
+        "lyricsUrl": "songs/tous-les-memes/lyrics.lrc"
+    },
+    {
+        "id": "derniere-danse",
+        "title": "Dernière danse",
+        "artist": "Indila",
+        "difficulty": "medium",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/derniere-danse/lyrics.lrc"
+    },
+    {
+        "id": "tourner-vide",
+        "title": "Tourner dans le vide",
+        "artist": "Indila",
+        "difficulty": "medium",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/tourner-vide/lyrics.lrc"
+    },
+    {
+        "id": "avenir",
+        "title": "Avenir",
+        "artist": "Louane",
+        "difficulty": "easy",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/avenir/lyrics.lrc"
+    },
+    {
+        "id": "je-veux-vivre",
+        "title": "Je veux vivre",
+        "artist": "Louane",
+        "difficulty": "easy",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/je-veux-vivre/lyrics.lrc"
+    },
+    {
+        "id": "je-veux",
+        "title": "Je veux",
+        "artist": "Zaz",
+        "difficulty": "easy",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/je-veux/lyrics.lrc"
+    },
+    {
+        "id": "on-ira",
+        "title": "On ira",
+        "artist": "Zaz",
+        "difficulty": "medium",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/on-ira/lyrics.lrc"
+    },
+    {
+        "id": "si",
+        "title": "Si",
+        "artist": "Zaz",
+        "difficulty": "medium",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/si/lyrics.lrc"
+    },
+    {
+        "id": "eblouie-nuit",
+        "title": "Éblouie par la nuit",
+        "artist": "Zaz",
+        "difficulty": "medium",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/eblouie-nuit/lyrics.lrc"
+    },
+    {
+        "id": "balance-ton-quoi",
+        "title": "Balance ton quoi",
+        "artist": "Angèle",
+        "difficulty": "easy",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/balance-ton-quoi/lyrics.lrc"
+    },
+    {
+        "id": "tout-oublier",
+        "title": "Tout oublier",
+        "artist": "Angèle",
+        "difficulty": "medium",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/tout-oublier/lyrics.lrc"
+    },
+    {
+        "id": "fever",
+        "title": "Fever",
+        "artist": "Angèle & Dua Lipa",
+        "difficulty": "easy",
+        "genre": "electro",
+        "audioUrl": "songs/_demo_electro.wav",
+        "lyricsUrl": "songs/fever/lyrics.lrc"
+    },
+    {
+        "id": "la-grenade",
+        "title": "La grenade",
+        "artist": "Clara Luciani",
+        "difficulty": "easy",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/la-grenade/lyrics.lrc"
+    },
+    {
+        "id": "la-derniere-fois",
+        "title": "La dernière fois",
+        "artist": "Clara Luciani",
+        "difficulty": "medium",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/la-derniere-fois/lyrics.lrc"
+    },
+    {
+        "id": "respire-encore",
+        "title": "Respire encore",
+        "artist": "Clara Luciani",
+        "difficulty": "easy",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/respire-encore/lyrics.lrc"
+    },
+    {
+        "id": "pas-la-vianney",
+        "title": "Pas là",
+        "artist": "Vianney",
+        "difficulty": "easy",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/pas-la-vianney/lyrics.lrc"
+    },
+    {
+        "id": "beau-papa",
+        "title": "Beau-papa",
+        "artist": "Vianney",
+        "difficulty": "easy",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/beau-papa/lyrics.lrc"
+    },
+    {
+        "id": "le-reste",
+        "title": "Le reste",
+        "artist": "Vianney",
+        "difficulty": "medium",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/le-reste/lyrics.lrc"
+    },
+    {
+        "id": "vie-bon-cote",
+        "title": "La vie du bon côté",
+        "artist": "Keen'V",
+        "difficulty": "easy",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/vie-bon-cote/lyrics.lrc"
+    },
+    {
+        "id": "jvoulais",
+        "title": "J'voulais",
+        "artist": "Keen'V",
+        "difficulty": "easy",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/jvoulais/lyrics.lrc"
+    },
+    {
+        "id": "sapes-comme-jamais",
+        "title": "Sapés comme jamais",
+        "artist": "Maître Gims",
+        "difficulty": "easy",
+        "genre": "rap",
+        "audioUrl": "songs/_demo_rap.wav",
+        "lyricsUrl": "songs/sapes-comme-jamais/lyrics.lrc"
+    },
+    {
+        "id": "bella",
+        "title": "Bella",
+        "artist": "Maître Gims",
+        "difficulty": "medium",
+        "genre": "rap",
+        "audioUrl": "songs/_demo_rap.wav",
+        "lyricsUrl": "songs/bella/lyrics.lrc"
+    },
+    {
+        "id": "est-ce-que-tu-maimes",
+        "title": "Est-ce que tu m'aimes",
+        "artist": "Maître Gims",
+        "difficulty": "medium",
+        "genre": "rap",
+        "audioUrl": "songs/_demo_rap.wav",
+        "lyricsUrl": "songs/est-ce-que-tu-maimes/lyrics.lrc"
+    },
+    {
+        "id": "ma-philosophie",
+        "title": "Ma philosophie",
+        "artist": "Amel Bent",
+        "difficulty": "medium",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/ma-philosophie/lyrics.lrc"
+    },
+    {
+        "id": "je-veux-tout",
+        "title": "Je veux tout",
+        "artist": "Amel Bent",
+        "difficulty": "medium",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/je-veux-tout/lyrics.lrc"
+    },
+    {
+        "id": "amour-plage",
+        "title": "L'amour à la plage",
+        "artist": "Niagara",
+        "difficulty": "easy",
+        "genre": "pop",
+        "audioUrl": "songs/_demo_pop.wav",
+        "lyricsUrl": "songs/amour-plage/lyrics.lrc"
+    },
+    {
+        "id": "disco",
+        "title": "D.I.S.C.O.",
+        "artist": "Ottawan",
+        "difficulty": "easy",
+        "genre": "electro",
+        "audioUrl": "songs/_demo_electro.wav",
+        "lyricsUrl": "songs/disco/lyrics.lrc"
+    },
+    {
+        "id": "hands-up",
+        "title": "Hands up",
+        "artist": "Ottawan",
+        "difficulty": "easy",
+        "genre": "electro",
+        "audioUrl": "songs/_demo_electro.wav",
+        "lyricsUrl": "songs/hands-up/lyrics.lrc"
+    },
+    {
+        "id": "demons-minuit",
+        "title": "Les démons de minuit",
+        "artist": "Images",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/demons-minuit/lyrics.lrc"
+    },
+    {
+        "id": "voyage-voyage",
+        "title": "Voyage, voyage",
+        "artist": "Desireless",
+        "difficulty": "medium",
+        "genre": "electro",
+        "audioUrl": "songs/_demo_electro.wav",
+        "lyricsUrl": "songs/voyage-voyage/lyrics.lrc"
+    },
+    {
+        "id": "ca-plane",
+        "title": "Ça plane pour moi",
+        "artist": "Plastic Bertrand",
+        "difficulty": "easy",
+        "genre": "rock",
+        "audioUrl": "songs/_demo_rock.wav",
+        "lyricsUrl": "songs/ca-plane/lyrics.lrc"
+    },
+    {
+        "id": "sunlights-tropiques",
+        "title": "Les sunlights des tropiques",
+        "artist": "Gilbert Montagné",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/sunlights-tropiques/lyrics.lrc"
+    },
+    {
+        "id": "on-va-saimer",
+        "title": "On va s'aimer",
+        "artist": "Gilbert Montagné",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/on-va-saimer/lyrics.lrc"
+    },
+    {
+        "id": "mademoiselle-blues",
+        "title": "Mademoiselle chante le blues",
+        "artist": "Patricia Kaas",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/mademoiselle-blues/lyrics.lrc"
+    },
+    {
+        "id": "le-chanteur",
+        "title": "Le chanteur",
+        "artist": "Daniel Balavoine",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/le-chanteur/lyrics.lrc"
+    },
+    {
+        "id": "laziza",
+        "title": "L'Aziza",
+        "artist": "Daniel Balavoine",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/laziza/lyrics.lrc"
+    },
+    {
+        "id": "sauver-amour",
+        "title": "Sauver l'amour",
+        "artist": "Daniel Balavoine",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/sauver-amour/lyrics.lrc"
+    },
+    {
+        "id": "encre-yeux",
+        "title": "L'encre de tes yeux",
+        "artist": "Francis Cabrel",
+        "difficulty": "medium",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/encre-yeux/lyrics.lrc"
+    },
+    {
+        "id": "je-taime-a-mourir",
+        "title": "Je l'aime à mourir",
+        "artist": "Francis Cabrel",
+        "difficulty": "easy",
+        "genre": "variete",
+        "audioUrl": "songs/_demo_variete.wav",
+        "lyricsUrl": "songs/je-taime-a-mourir/lyrics.lrc"
     }
 ]
