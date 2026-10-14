@@ -184,10 +184,40 @@ class TeslaKaraokeApp {
         const title = mode === 'solo' ? 'Choisis ta chanson' : 'Choisis la chanson du duel';
         document.getElementById('select-title').textContent = title;
 
+        const searchInput = document.getElementById('song-search');
+        searchInput.value = '';
+
+        this.renderSongList(mode, '');
+
+        searchInput.oninput = (e) => {
+            this.renderSongList(mode, e.target.value);
+        };
+
+        this.showScreen('song-select');
+        if (window.matchMedia && window.matchMedia('(min-width: 1024px)').matches) {
+            searchInput.focus();
+        }
+    }
+
+    /**
+     * Affiche la liste des chansons filtrée
+     */
+    renderSongList(mode, query) {
         const list = document.getElementById('song-list');
         list.innerHTML = '';
 
-        for (const song of this.songs) {
+        const q = (query || '').trim().toLowerCase();
+        const filtered = q ? this.songs.filter(song =>
+            song.title.toLowerCase().includes(q) ||
+            (song.artist || '').toLowerCase().includes(q)
+        ) : this.songs;
+
+        if (filtered.length === 0) {
+            list.innerHTML = '<p class="song-list-empty">Aucune chanson trouvée</p>';
+            return;
+        }
+
+        for (const song of filtered) {
             const card = document.createElement('div');
             card.className = 'song-card';
             card.innerHTML = `
@@ -204,8 +234,6 @@ class TeslaKaraokeApp {
             });
             list.appendChild(card);
         }
-
-        this.showScreen('song-select');
     }
 
     /**
