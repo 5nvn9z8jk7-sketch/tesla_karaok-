@@ -5,7 +5,7 @@
         "artist": "Édith Piaf",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/vie-en-rose/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/vie-en-rose/audio.mp3",
         "lyricsUrl": "songs/vie-en-rose/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -15,7 +15,7 @@
         "artist": "Édith Piaf",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/ne-regrette-rien/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/ne-regrette-rien/audio.mp3",
         "lyricsUrl": "songs/ne-regrette-rien/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -25,7 +25,7 @@
         "artist": "Édith Piaf",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/sous-ciel-paris/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/sous-ciel-paris/audio.mp3",
         "lyricsUrl": "songs/sous-ciel-paris/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -35,7 +35,7 @@
         "artist": "Édith Piaf",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/milord/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/milord/audio.mp3",
         "lyricsUrl": "songs/milord/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -45,7 +45,7 @@
         "artist": "Édith Piaf",
         "difficulty": "hard",
         "genre": "variete",
-        "audioUrl": "songs/hymne-amour/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/hymne-amour/audio.mp3",
         "lyricsUrl": "songs/hymne-amour/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -55,7 +55,7 @@
         "artist": "Charles Aznavour",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/boheme/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/boheme/audio.mp3",
         "lyricsUrl": "songs/boheme/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -65,7 +65,7 @@
         "artist": "Charles Aznavour",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/emmenez-moi/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/emmenez-moi/audio.mp3",
         "lyricsUrl": "songs/emmenez-moi/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -75,7 +75,7 @@
         "artist": "Charles Aznavour",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/hier-encore/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/hier-encore/audio.mp3",
         "lyricsUrl": "songs/hier-encore/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -85,7 +85,7 @@
         "artist": "Charles Aznavour",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/la-mamma/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/la-mamma/audio.mp3",
         "lyricsUrl": "songs/la-mamma/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -95,7 +95,7 @@
         "artist": "Charles Aznavour",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/she/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/she/audio.mp3",
         "lyricsUrl": "songs/she/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -105,7 +105,7 @@
         "artist": "Joe Dassin",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/ete-indien/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/ete-indien/audio.mp3",
         "lyricsUrl": "songs/ete-indien/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -115,7 +115,7 @@
         "artist": "Joe Dassin",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/champs-elysees/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/champs-elysees/audio.mp3",
         "lyricsUrl": "songs/champs-elysees/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -125,7 +125,7 @@
         "artist": "Joe Dassin",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/salut-amoureux/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/salut-amoureux/audio.mp3",
         "lyricsUrl": "songs/salut-amoureux/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -135,7 +135,7 @@
         "artist": "Joe Dassin",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/petit-pain/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/petit-pain/audio.mp3",
         "lyricsUrl": "songs/petit-pain/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -145,7 +145,7 @@
         "artist": "Joe Dassin",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/siffler-colline/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/siffler-colline/audio.mp3",
         "lyricsUrl": "songs/siffler-colline/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -155,7 +155,7 @@
         "artist": "Yves Montand",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/feuilles-mortes/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/feuilles-mortes/audio.mp3",
         "lyricsUrl": "songs/feuilles-mortes/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -165,7 +165,7 @@
         "artist": "Yves Montand",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/cest-si-bon/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/cest-si-bon/audio.mp3",
         "lyricsUrl": "songs/cest-si-bon/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -175,7 +175,7 @@
         "artist": "Charles Trenet",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/la-mer/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/la-mer/audio.mp3",
         "lyricsUrl": "songs/la-mer/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -185,7 +185,7 @@
         "artist": "Charles Trenet",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/douce-france/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/douce-france/audio.mp3",
         "lyricsUrl": "songs/douce-france/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -195,7 +195,7 @@
         "artist": "Charles Trenet",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/boum/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/boum/audio.mp3",
         "lyricsUrl": "songs/boum/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -205,7 +205,7 @@
         "artist": "France Gall",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/poupee-cire/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/poupee-cire/audio.mp3",
         "lyricsUrl": "songs/poupee-cire/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -215,7 +215,7 @@
         "artist": "France Gall",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/ella-elle-la/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/ella-elle-la/audio.mp3",
         "lyricsUrl": "songs/ella-elle-la/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -225,7 +225,7 @@
         "artist": "France Gall",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/babacar/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/babacar/audio.mp3",
         "lyricsUrl": "songs/babacar/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -235,7 +235,7 @@
         "artist": "France Gall",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/diego/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/diego/audio.mp3",
         "lyricsUrl": "songs/diego/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -245,7 +245,7 @@
         "artist": "Michel Berger",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/groupie-pianiste/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/groupie-pianiste/audio.mp3",
         "lyricsUrl": "songs/groupie-pianiste/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -255,7 +255,7 @@
         "artist": "Michel Berger",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/quelques-mots/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/quelques-mots/audio.mp3",
         "lyricsUrl": "songs/quelques-mots/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -265,7 +265,7 @@
         "artist": "Michel Berger",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/peu-de-blues/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/peu-de-blues/audio.mp3",
         "lyricsUrl": "songs/peu-de-blues/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -275,7 +275,7 @@
         "artist": "Michel Sardou",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/lacs-connemara/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/lacs-connemara/audio.mp3",
         "lyricsUrl": "songs/lacs-connemara/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -285,7 +285,7 @@
         "artist": "Michel Sardou",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/je-vais-t-aimer/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/je-vais-t-aimer/audio.mp3",
         "lyricsUrl": "songs/je-vais-t-aimer/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -295,7 +295,7 @@
         "artist": "Michel Sardou",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/etre-une-femme/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/etre-une-femme/audio.mp3",
         "lyricsUrl": "songs/etre-une-femme/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -305,7 +305,7 @@
         "artist": "Michel Sardou",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/villes-solitude/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/villes-solitude/audio.mp3",
         "lyricsUrl": "songs/villes-solitude/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -315,7 +315,7 @@
         "artist": "Michel Sardou",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/maladie-amour/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/maladie-amour/audio.mp3",
         "lyricsUrl": "songs/maladie-amour/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -325,7 +325,7 @@
         "artist": "Jean-Jacques Goldman",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/envole-moi/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/envole-moi/audio.mp3",
         "lyricsUrl": "songs/envole-moi/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -335,7 +335,7 @@
         "artist": "Jean-Jacques Goldman",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/je-marche-seul/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/je-marche-seul/audio.mp3",
         "lyricsUrl": "songs/je-marche-seul/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -345,7 +345,7 @@
         "artist": "Jean-Jacques Goldman",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/la-bas/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/la-bas/audio.mp3",
         "lyricsUrl": "songs/la-bas/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -355,7 +355,7 @@
         "artist": "Jean-Jacques Goldman",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/il-suffira/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/il-suffira/audio.mp3",
         "lyricsUrl": "songs/il-suffira/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -365,7 +365,7 @@
         "artist": "Jean-Jacques Goldman",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/pas-la/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/pas-la/audio.mp3",
         "lyricsUrl": "songs/pas-la/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -375,7 +375,7 @@
         "artist": "Jean-Jacques Goldman",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/encore-un-matin/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/encore-un-matin/audio.mp3",
         "lyricsUrl": "songs/encore-un-matin/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -385,7 +385,7 @@
         "artist": "Jean-Jacques Goldman",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/quand-musique-bonne/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/quand-musique-bonne/audio.mp3",
         "lyricsUrl": "songs/quand-musique-bonne/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -395,7 +395,7 @@
         "artist": "Jean-Jacques Goldman",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/cest-ta-chance/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/cest-ta-chance/audio.mp3",
         "lyricsUrl": "songs/cest-ta-chance/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -405,7 +405,7 @@
         "artist": "Renaud",
         "difficulty": "easy",
         "genre": "rock",
-        "audioUrl": "songs/mistral-gagnant/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/mistral-gagnant/audio.mp3",
         "lyricsUrl": "songs/mistral-gagnant/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_rock.wav"
     },
@@ -415,7 +415,7 @@
         "artist": "Renaud",
         "difficulty": "easy",
         "genre": "rock",
-        "audioUrl": "songs/laisse-beton/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/laisse-beton/audio.mp3",
         "lyricsUrl": "songs/laisse-beton/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_rock.wav"
     },
@@ -425,7 +425,7 @@
         "artist": "Renaud",
         "difficulty": "medium",
         "genre": "rock",
-        "audioUrl": "songs/des-que-vent/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/des-que-vent/audio.mp3",
         "lyricsUrl": "songs/des-que-vent/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_rock.wav"
     },
@@ -435,7 +435,7 @@
         "artist": "Renaud",
         "difficulty": "hard",
         "genre": "rock",
-        "audioUrl": "songs/manhattan-kaboul/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/manhattan-kaboul/audio.mp3",
         "lyricsUrl": "songs/manhattan-kaboul/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_rock.wav"
     },
@@ -445,7 +445,7 @@
         "artist": "Alain Souchon",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/foule-sentimentale/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/foule-sentimentale/audio.mp3",
         "lyricsUrl": "songs/foule-sentimentale/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -455,7 +455,7 @@
         "artist": "Alain Souchon",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/allo-maman/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/allo-maman/audio.mp3",
         "lyricsUrl": "songs/allo-maman/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -465,7 +465,7 @@
         "artist": "Alain Souchon",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/telephone-pleure/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/telephone-pleure/audio.mp3",
         "lyricsUrl": "songs/telephone-pleure/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -475,7 +475,7 @@
         "artist": "Alain Souchon",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/rame/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/rame/audio.mp3",
         "lyricsUrl": "songs/rame/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -485,7 +485,7 @@
         "artist": "Nino Ferrer",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/le-sud/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/le-sud/audio.mp3",
         "lyricsUrl": "songs/le-sud/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -495,7 +495,7 @@
         "artist": "Nino Ferrer",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/mirza/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/mirza/audio.mp3",
         "lyricsUrl": "songs/mirza/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -505,7 +505,7 @@
         "artist": "Vanessa Paradis",
         "difficulty": "easy",
         "genre": "pop",
-        "audioUrl": "songs/joe-taxi/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/joe-taxi/audio.mp3",
         "lyricsUrl": "songs/joe-taxi/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -515,7 +515,7 @@
         "artist": "Vanessa Paradis",
         "difficulty": "medium",
         "genre": "pop",
-        "audioUrl": "songs/marilyn-john/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/marilyn-john/audio.mp3",
         "lyricsUrl": "songs/marilyn-john/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -525,7 +525,7 @@
         "artist": "Vanessa Paradis",
         "difficulty": "easy",
         "genre": "pop",
-        "audioUrl": "songs/be-my-baby/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/be-my-baby/audio.mp3",
         "lyricsUrl": "songs/be-my-baby/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -535,7 +535,7 @@
         "artist": "Christophe Maé",
         "difficulty": "easy",
         "genre": "pop",
-        "audioUrl": "songs/on-sattache/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/on-sattache/audio.mp3",
         "lyricsUrl": "songs/on-sattache/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -545,7 +545,7 @@
         "artist": "Christophe Maé",
         "difficulty": "easy",
         "genre": "pop",
-        "audioUrl": "songs/belle-demoiselle/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/belle-demoiselle/audio.mp3",
         "lyricsUrl": "songs/belle-demoiselle/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -555,7 +555,7 @@
         "artist": "Christophe Maé",
         "difficulty": "medium",
         "genre": "pop",
-        "audioUrl": "songs/jai-laisse/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/jai-laisse/audio.mp3",
         "lyricsUrl": "songs/jai-laisse/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -565,7 +565,7 @@
         "artist": "Christophe Maé",
         "difficulty": "easy",
         "genre": "pop",
-        "audioUrl": "songs/dingue/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/dingue/audio.mp3",
         "lyricsUrl": "songs/dingue/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -575,7 +575,7 @@
         "artist": "Stromae",
         "difficulty": "easy",
         "genre": "electro",
-        "audioUrl": "songs/papaoutai/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/papaoutai/audio.mp3",
         "lyricsUrl": "songs/papaoutai/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_electro.wav"
     },
@@ -585,7 +585,7 @@
         "artist": "Stromae",
         "difficulty": "easy",
         "genre": "electro",
-        "audioUrl": "songs/alors-on-danse/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/alors-on-danse/audio.mp3",
         "lyricsUrl": "songs/alors-on-danse/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_electro.wav"
     },
@@ -595,7 +595,7 @@
         "artist": "Stromae",
         "difficulty": "medium",
         "genre": "electro",
-        "audioUrl": "songs/formidable/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/formidable/audio.mp3",
         "lyricsUrl": "songs/formidable/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_electro.wav"
     },
@@ -605,7 +605,7 @@
         "artist": "Stromae",
         "difficulty": "medium",
         "genre": "electro",
-        "audioUrl": "songs/ta-fete/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/ta-fete/audio.mp3",
         "lyricsUrl": "songs/ta-fete/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_electro.wav"
     },
@@ -615,7 +615,7 @@
         "artist": "Stromae",
         "difficulty": "medium",
         "genre": "electro",
-        "audioUrl": "songs/tous-les-memes/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/tous-les-memes/audio.mp3",
         "lyricsUrl": "songs/tous-les-memes/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_electro.wav"
     },
@@ -625,7 +625,7 @@
         "artist": "Indila",
         "difficulty": "medium",
         "genre": "pop",
-        "audioUrl": "songs/derniere-danse/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/derniere-danse/audio.mp3",
         "lyricsUrl": "songs/derniere-danse/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -635,7 +635,7 @@
         "artist": "Indila",
         "difficulty": "medium",
         "genre": "pop",
-        "audioUrl": "songs/tourner-vide/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/tourner-vide/audio.mp3",
         "lyricsUrl": "songs/tourner-vide/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -645,7 +645,7 @@
         "artist": "Louane",
         "difficulty": "easy",
         "genre": "pop",
-        "audioUrl": "songs/avenir/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/avenir/audio.mp3",
         "lyricsUrl": "songs/avenir/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -655,7 +655,7 @@
         "artist": "Louane",
         "difficulty": "easy",
         "genre": "pop",
-        "audioUrl": "songs/je-veux-vivre/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/je-veux-vivre/audio.mp3",
         "lyricsUrl": "songs/je-veux-vivre/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -665,7 +665,7 @@
         "artist": "Zaz",
         "difficulty": "easy",
         "genre": "pop",
-        "audioUrl": "songs/je-veux/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/je-veux/audio.mp3",
         "lyricsUrl": "songs/je-veux/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -675,7 +675,7 @@
         "artist": "Zaz",
         "difficulty": "medium",
         "genre": "pop",
-        "audioUrl": "songs/on-ira/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/on-ira/audio.mp3",
         "lyricsUrl": "songs/on-ira/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -685,7 +685,7 @@
         "artist": "Zaz",
         "difficulty": "medium",
         "genre": "pop",
-        "audioUrl": "songs/si/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/si/audio.mp3",
         "lyricsUrl": "songs/si/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -695,7 +695,7 @@
         "artist": "Zaz",
         "difficulty": "medium",
         "genre": "pop",
-        "audioUrl": "songs/eblouie-nuit/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/eblouie-nuit/audio.mp3",
         "lyricsUrl": "songs/eblouie-nuit/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -705,7 +705,7 @@
         "artist": "Angèle",
         "difficulty": "easy",
         "genre": "pop",
-        "audioUrl": "songs/balance-ton-quoi/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/balance-ton-quoi/audio.mp3",
         "lyricsUrl": "songs/balance-ton-quoi/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -715,7 +715,7 @@
         "artist": "Angèle",
         "difficulty": "medium",
         "genre": "pop",
-        "audioUrl": "songs/tout-oublier/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/tout-oublier/audio.mp3",
         "lyricsUrl": "songs/tout-oublier/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -725,7 +725,7 @@
         "artist": "Angèle & Dua Lipa",
         "difficulty": "easy",
         "genre": "electro",
-        "audioUrl": "songs/fever/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/fever/audio.mp3",
         "lyricsUrl": "songs/fever/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_electro.wav"
     },
@@ -735,7 +735,7 @@
         "artist": "Clara Luciani",
         "difficulty": "easy",
         "genre": "pop",
-        "audioUrl": "songs/la-grenade/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/la-grenade/audio.mp3",
         "lyricsUrl": "songs/la-grenade/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -745,7 +745,7 @@
         "artist": "Clara Luciani",
         "difficulty": "medium",
         "genre": "pop",
-        "audioUrl": "songs/la-derniere-fois/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/la-derniere-fois/audio.mp3",
         "lyricsUrl": "songs/la-derniere-fois/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -755,7 +755,7 @@
         "artist": "Clara Luciani",
         "difficulty": "easy",
         "genre": "pop",
-        "audioUrl": "songs/respire-encore/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/respire-encore/audio.mp3",
         "lyricsUrl": "songs/respire-encore/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -765,7 +765,7 @@
         "artist": "Vianney",
         "difficulty": "easy",
         "genre": "pop",
-        "audioUrl": "songs/pas-la-vianney/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/pas-la-vianney/audio.mp3",
         "lyricsUrl": "songs/pas-la-vianney/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -775,7 +775,7 @@
         "artist": "Vianney",
         "difficulty": "easy",
         "genre": "pop",
-        "audioUrl": "songs/beau-papa/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/beau-papa/audio.mp3",
         "lyricsUrl": "songs/beau-papa/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -785,7 +785,7 @@
         "artist": "Vianney",
         "difficulty": "medium",
         "genre": "pop",
-        "audioUrl": "songs/le-reste/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/le-reste/audio.mp3",
         "lyricsUrl": "songs/le-reste/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -795,7 +795,7 @@
         "artist": "Keen'V",
         "difficulty": "easy",
         "genre": "pop",
-        "audioUrl": "songs/vie-bon-cote/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/vie-bon-cote/audio.mp3",
         "lyricsUrl": "songs/vie-bon-cote/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -805,7 +805,7 @@
         "artist": "Keen'V",
         "difficulty": "easy",
         "genre": "pop",
-        "audioUrl": "songs/jvoulais/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/jvoulais/audio.mp3",
         "lyricsUrl": "songs/jvoulais/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -815,7 +815,7 @@
         "artist": "Maître Gims",
         "difficulty": "easy",
         "genre": "rap",
-        "audioUrl": "songs/sapes-comme-jamais/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/sapes-comme-jamais/audio.mp3",
         "lyricsUrl": "songs/sapes-comme-jamais/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_rap.wav"
     },
@@ -825,7 +825,7 @@
         "artist": "Maître Gims",
         "difficulty": "medium",
         "genre": "rap",
-        "audioUrl": "songs/bella/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/bella/audio.mp3",
         "lyricsUrl": "songs/bella/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_rap.wav"
     },
@@ -835,7 +835,7 @@
         "artist": "Maître Gims",
         "difficulty": "medium",
         "genre": "rap",
-        "audioUrl": "songs/est-ce-que-tu-maimes/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/est-ce-que-tu-maimes/audio.mp3",
         "lyricsUrl": "songs/est-ce-que-tu-maimes/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_rap.wav"
     },
@@ -845,7 +845,7 @@
         "artist": "Amel Bent",
         "difficulty": "medium",
         "genre": "pop",
-        "audioUrl": "songs/ma-philosophie/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/ma-philosophie/audio.mp3",
         "lyricsUrl": "songs/ma-philosophie/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -855,7 +855,7 @@
         "artist": "Amel Bent",
         "difficulty": "medium",
         "genre": "pop",
-        "audioUrl": "songs/je-veux-tout/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/je-veux-tout/audio.mp3",
         "lyricsUrl": "songs/je-veux-tout/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -865,7 +865,7 @@
         "artist": "Niagara",
         "difficulty": "easy",
         "genre": "pop",
-        "audioUrl": "songs/amour-plage/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/amour-plage/audio.mp3",
         "lyricsUrl": "songs/amour-plage/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_pop.wav"
     },
@@ -875,7 +875,7 @@
         "artist": "Ottawan",
         "difficulty": "easy",
         "genre": "electro",
-        "audioUrl": "songs/disco/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/disco/audio.mp3",
         "lyricsUrl": "songs/disco/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_electro.wav"
     },
@@ -885,7 +885,7 @@
         "artist": "Ottawan",
         "difficulty": "easy",
         "genre": "electro",
-        "audioUrl": "songs/hands-up/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/hands-up/audio.mp3",
         "lyricsUrl": "songs/hands-up/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_electro.wav"
     },
@@ -895,7 +895,7 @@
         "artist": "Images",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/demons-minuit/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/demons-minuit/audio.mp3",
         "lyricsUrl": "songs/demons-minuit/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -905,7 +905,7 @@
         "artist": "Desireless",
         "difficulty": "medium",
         "genre": "electro",
-        "audioUrl": "songs/voyage-voyage/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/voyage-voyage/audio.mp3",
         "lyricsUrl": "songs/voyage-voyage/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_electro.wav"
     },
@@ -915,7 +915,7 @@
         "artist": "Plastic Bertrand",
         "difficulty": "easy",
         "genre": "rock",
-        "audioUrl": "songs/ca-plane/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/ca-plane/audio.mp3",
         "lyricsUrl": "songs/ca-plane/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_rock.wav"
     },
@@ -925,7 +925,7 @@
         "artist": "Gilbert Montagné",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/sunlights-tropiques/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/sunlights-tropiques/audio.mp3",
         "lyricsUrl": "songs/sunlights-tropiques/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -935,7 +935,7 @@
         "artist": "Gilbert Montagné",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/on-va-saimer/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/on-va-saimer/audio.mp3",
         "lyricsUrl": "songs/on-va-saimer/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -945,7 +945,7 @@
         "artist": "Patricia Kaas",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/mademoiselle-blues/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/mademoiselle-blues/audio.mp3",
         "lyricsUrl": "songs/mademoiselle-blues/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -955,7 +955,7 @@
         "artist": "Daniel Balavoine",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/le-chanteur/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/le-chanteur/audio.mp3",
         "lyricsUrl": "songs/le-chanteur/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -965,7 +965,7 @@
         "artist": "Daniel Balavoine",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/laziza/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/laziza/audio.mp3",
         "lyricsUrl": "songs/laziza/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -975,7 +975,7 @@
         "artist": "Daniel Balavoine",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/sauver-amour/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/sauver-amour/audio.mp3",
         "lyricsUrl": "songs/sauver-amour/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -985,7 +985,7 @@
         "artist": "Francis Cabrel",
         "difficulty": "medium",
         "genre": "variete",
-        "audioUrl": "songs/encre-yeux/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/encre-yeux/audio.mp3",
         "lyricsUrl": "songs/encre-yeux/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     },
@@ -995,7 +995,7 @@
         "artist": "Francis Cabrel",
         "difficulty": "easy",
         "genre": "variete",
-        "audioUrl": "songs/je-taime-a-mourir/audio.mp3",
+        "audioUrl": "https://pub-2cfd222299ea4f79a7cf066a33c7803e.r2.dev/je-taime-a-mourir/audio.mp3",
         "lyricsUrl": "songs/je-taime-a-mourir/lyrics.lrc",
         "fallbackAudioUrl": "songs/_demo_variete.wav"
     }
