@@ -227,6 +227,21 @@ html, body {
     background: var(--bg-card);
 }
 
+.offset-display {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 48px;
+    padding: 0 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    background: var(--bg-tertiary);
+    border-radius: 8px;
+    margin: 0 4px;
+}
+
+
 .btn-mic {
     background: var(--danger);
     color: white;

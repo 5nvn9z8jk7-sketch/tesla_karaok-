@@ -22,11 +22,15 @@ class SoloMode {
             progressBar: document.getElementById('progress-bar'),
             visualizer: document.getElementById('visualizer-solo'),
             feedback: document.getElementById('solo-feedback'),
-            micBtn: document.getElementById('btn-mic-solo')
+            micBtn: document.getElementById('btn-mic-solo'),
+            offsetMinus: document.getElementById('btn-offset-minus'),
+            offsetPlus: document.getElementById('btn-offset-plus'),
+            offsetDisplay: document.getElementById('offset-display')
         };
 
         this.vizCtx = this.el.visualizer.getContext('2d');
         this.micActive = false;
+        this.offsetAdjust = 0;
         this.onEnd = null;
 
         this.bindEvents();
@@ -34,6 +38,9 @@ class SoloMode {
 
     bindEvents() {
         this.el.micBtn.addEventListener('click', () => this.toggleMic());
+
+        this.el.offsetMinus.addEventListener('click', () => this.adjustOffset(-1));
+        this.el.offsetPlus.addEventListener('click', () => this.adjustOffset(1));
 
         this.scoring.onScoreUpdate = (score, percentage, combo) => {
             this.el.score.textContent = `Score: ${score} (${percentage}%)`;
@@ -60,6 +67,8 @@ class SoloMode {
         this.el.score.textContent = 'Score: 0';
         this.el.feedback.textContent = '';
         this.activeLineIndex = -1;
+        this.offsetAdjust = 0;
+        this.el.offsetDisplay.textContent = '0s';
 
         // Charger les paroles
         try {
@@ -86,6 +95,19 @@ class SoloMode {
         this.animate();
 
         return true;
+    }
+
+    adjustOffset(seconds) {
+        this.offsetAdjust += seconds;
+        // Appliquer le décalage à toutes les lignes
+        const lines = this.lyricsParser.getLines();
+        lines.forEach(line => line.time += seconds);
+        // Rafraîchir l'affichage
+        this.activeLineIndex = -1; // force le re-render
+        this.updateLyrics(this.audio.getCurrentTime());
+        // Mettre à jour l'affichage de l'offset
+        const totalOffset = this.offsetAdjust;
+        this.el.offsetDisplay.textContent = (totalOffset > 0 ? '+' : '') + totalOffset + 's';
     }
 
     toggleMic() {
