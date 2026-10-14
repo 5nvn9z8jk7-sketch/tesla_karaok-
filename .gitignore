@@ -7,3 +7,11 @@ Thumbs.db
 node_modules/
 *.log
 .env
+
+# Fichiers audio téléchargés (trop lourds pour git, ~6 Mo x 100 chansons)
+songs/*/audio.mp3
+songs/*/audio.wav
+songs/*/audio.webm
+
+# Binaire ffmpeg (87 Mo, régénérable via install_deps.bat)
+ffmpeg.exe

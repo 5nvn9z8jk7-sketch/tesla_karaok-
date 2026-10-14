@@ -107,7 +107,6 @@ class DuelMode {
 
         // Pour l'instant, on ne gère qu'un seul micro actif à la fois
         // (la plupart des voitures n'ont qu'un micro)
-        // On switch le micro actif vers le joueur courant
         if (this.playerMicActive[key]) {
             this.audio.toggleMic(true).then(() => {
                 this.el.micBtnP1.textContent = '🎤 J1 ON';
@@ -115,6 +114,10 @@ class DuelMode {
                 this.el.micBtnP1.classList.toggle('active', this.currentPlayer === 1);
                 this.el.micBtnP2.classList.toggle('active', this.currentPlayer === 2);
             });
+        } else {
+            this.audio.toggleMic(false);
+            this.el.micBtnP1.classList.remove('active');
+            this.el.micBtnP2.classList.remove('active');
         }
     }
 

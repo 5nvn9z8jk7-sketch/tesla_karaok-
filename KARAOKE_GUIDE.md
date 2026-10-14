@@ -16,7 +16,7 @@ pip install yt-dlp
 
 ### 2. Télécharger les instrumentaux
 
-Double-clique sur **`download_all.bat`**.
+Double-clique sur **`download.bat`**.
 
 Le script va :
 - Chercher chaque chanson sur YouTube ("[titre] [artiste] karaoke instrumental")

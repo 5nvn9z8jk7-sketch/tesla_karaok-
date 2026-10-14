@@ -11,7 +11,7 @@ Application web de karaoké conçue pour l'écran tactile 15" de la Tesla Model 
 install_deps.bat
 
 # 2. Télécharger les 100 instrumentaux depuis YouTube (~10-30 min)
-download_all.bat
+download.bat
 
 # 3. Pousser sur GitHub (le site se met à jour automatiquement)
 git add . && git commit -m "Instrumentaux" && git push

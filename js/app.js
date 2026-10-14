@@ -58,7 +58,7 @@ class TeslaKaraokeApp {
                     title: 'Joyeux Anniversaire',
                     artist: 'Traditionnel',
                     difficulty: 'easy',
-                    audioUrl: 'songs/demo/audio.mp3',
+                    audioUrl: 'songs/demo/audio.wav',
                     lyricsUrl: 'songs/demo/lyrics.lrc'
                 },
                 {
@@ -66,7 +66,7 @@ class TeslaKaraokeApp {
                     title: 'Twinkle Twinkle',
                     artist: 'Traditionnel',
                     difficulty: 'easy',
-                    audioUrl: 'songs/demo/audio.mp3',
+                    audioUrl: 'songs/demo/audio.wav',
                     lyricsUrl: 'songs/demo/lyrics.lrc'
                 },
                 {
@@ -74,7 +74,7 @@ class TeslaKaraokeApp {
                     title: 'Happy Birthday (EN)',
                     artist: 'Traditionnel',
                     difficulty: 'easy',
-                    audioUrl: 'songs/demo/audio.mp3',
+                    audioUrl: 'songs/demo/audio.wav',
                     lyricsUrl: 'songs/demo/lyrics.lrc'
                 }
             ];
