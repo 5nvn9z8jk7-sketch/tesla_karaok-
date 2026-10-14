@@ -1,0 +1,68 @@
+name: CI
+
+on:
+  push:
+    branches: ['*']
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    name: Vérification syntaxe JS & manifest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Vérification syntaxique des fichiers JS
+        run: |
+          set -e
+          fail=0
+          while IFS= read -r -d '' f; do
+            if node --check "$f"; then
+              echo "OK: $f"
+            else
+              echo "ERREUR: $f"
+              fail=1
+            fi
+          done < <(find . -name node_modules -prune -o -name '*.js' -print0)
+          exit $fail
+
+      - name: Validation du manifest des chansons
+        run: |
+          node -e "
+            const fs = require('fs');
+            const m = JSON.parse(fs.readFileSync('songs/manifest.json', 'utf8'));
+            if (!Array.isArray(m) || m.length === 0) throw new Error('Manifest vide');
+            const required = ['id', 'title', 'artist', 'audioUrl', 'lyricsUrl', 'fallbackAudioUrl'];
+            for (const s of m) {
+              for (const k of required) {
+                if (!s[k]) throw new Error('Chanson ' + (s.id || '?') + ' : champ manquant ' + k);
+              }
+            }
+            const ids = m.map(s => s.id);
+            const dup = ids.filter((v, i) => ids.indexOf(v) !== i);
+            if (dup.length) throw new Error('IDs dupliqués: ' + dup.join(', '));
+            console.log('Manifest OK: ' + m.length + ' chansons');
+          "
+
+      - name: Vérification des fichiers référencés par le manifest
+        run: |
+          node -e "
+            const fs = require('fs');
+            const m = JSON.parse(fs.readFileSync('songs/manifest.json', 'utf8'));
+            let missing = 0;
+            for (const s of m) {
+              for (const key of ['lyricsUrl', 'fallbackAudioUrl']) {
+                if (!fs.existsSync(s[key])) {
+                  console.error('Manquant: ' + s[key] + ' (' + s.id + ')');
+                  missing++;
+                }
+              }
+            }
+            if (missing > 0) { console.error(missing + ' fichiers manquants'); process.exit(1); }
+            console.log('Tous les fichiers référencés existent');
+          "
