@@ -43,18 +43,18 @@ class SoloMode {
             this.el.feedback.textContent = text;
             this.el.feedback.className = 'feedback' + (type ? ' ' + type : '');
         };
+    }
 
+    async start(song) {
+        // Réinstaller les callbacks audio (écrasés par les autres modes)
         this.audio.onTimeUpdate = (currentTime, duration) => {
             this.updateProgress(currentTime, duration);
             this.updateLyrics(currentTime);
         };
-
         this.audio.onEnded = () => {
             this.endGame();
         };
-    }
 
-    async start(song) {
         this.currentSong = song;
         this.el.songTitle.textContent = `${song.title} - ${song.artist}`;
         this.el.score.textContent = 'Score: 0';

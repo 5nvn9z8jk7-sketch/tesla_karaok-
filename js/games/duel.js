@@ -47,18 +47,18 @@ class DuelMode {
     bindEvents() {
         this.el.micBtnP1.addEventListener('click', () => this.toggleMic(1));
         this.el.micBtnP2.addEventListener('click', () => this.toggleMic(2));
+    }
 
+    async start(song) {
+        // Réinstaller les callbacks audio (écrasés par les autres modes)
         this.audio.onTimeUpdate = (currentTime, duration) => {
             this.updateProgress(currentTime, duration);
             this.updateGame(currentTime);
         };
-
         this.audio.onEnded = () => {
             this.endGame();
         };
-    }
 
-    async start(song) {
         this.currentSong = song;
         this.el.songTitle.textContent = `${song.title} - ${song.artist}`;
         this.scores = { p1: 0, p2: 0 };

@@ -13,7 +13,7 @@ class BlindTestMode {
         this.isPlaying = false;
         this.currentSong = null;
         this.choices = [];
-        this.extractDuration = 10; // secondes d'extrait
+        this.extractDuration = 20; // secondes d'extrait
         this.answered = false;
         this.roundTimer = null;
         this.nextRoundTimer = null;
@@ -82,7 +82,7 @@ class BlindTestMode {
                 if (this.isPlaying && !this.answered) {
                     this.audio.pauseMusic();
                     this.showFeedback(false, 'Trop lent ! La réponse était : ' + this.currentSong.title);
-                    this.nextRoundTimer = setTimeout(() => this.nextRound(), 3000);
+                    this.nextRoundTimer = setTimeout(() => this.nextRound(), 4000);
                 }
             }, this.extractDuration * 1000);
 
