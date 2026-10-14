@@ -15,6 +15,8 @@ class BlindTestMode {
         this.choices = [];
         this.extractDuration = 10; // secondes d'extrait
         this.answered = false;
+        this.roundTimer = null;
+        this.nextRoundTimer = null;
         this.onEnd = null;
 
         // Éléments DOM
@@ -76,11 +78,11 @@ class BlindTestMode {
             this.isPlaying = true;
 
             // Arrêter après extractDuration secondes
-            setTimeout(() => {
+            this.roundTimer = setTimeout(() => {
                 if (this.isPlaying && !this.answered) {
                     this.audio.pauseMusic();
                     this.showFeedback(false, 'Trop lent ! La réponse était : ' + this.currentSong.title);
-                    setTimeout(() => this.nextRound(), 3000);
+                    this.nextRoundTimer = setTimeout(() => this.nextRound(), 3000);
                 }
             }, this.extractDuration * 1000);
 
@@ -111,6 +113,7 @@ class BlindTestMode {
         for (const song of this.choices) {
             const btn = document.createElement('button');
             btn.className = 'blind-choice';
+            btn.dataset.songId = song.id;
             btn.textContent = `${song.title} - ${song.artist}`;
             btn.addEventListener('click', () => this.answer(song));
             this.el.choices.appendChild(btn);
@@ -129,9 +132,9 @@ class BlindTestMode {
         const buttons = this.el.choices.querySelectorAll('.blind-choice');
         buttons.forEach(btn => {
             btn.disabled = true;
-            if (btn.textContent.includes(this.currentSong.title)) {
+            if (btn.dataset.songId === this.currentSong.id) {
                 btn.classList.add('correct');
-            } else if (btn.textContent.includes(selectedSong.title) && !isCorrect) {
+            } else if (btn.dataset.songId === selectedSong.id && !isCorrect) {
                 btn.classList.add('wrong');
             }
         });
@@ -145,7 +148,7 @@ class BlindTestMode {
 
         this.updateDisplay();
 
-        setTimeout(() => this.nextRound(), 2500);
+        this.nextRoundTimer = setTimeout(() => this.nextRound(), 2500);
     }
 
     showFeedback(success, message) {
@@ -177,13 +180,26 @@ class BlindTestMode {
         };
     }
 
+    clearTimers() {
+        if (this.roundTimer) {
+            clearTimeout(this.roundTimer);
+            this.roundTimer = null;
+        }
+        if (this.nextRoundTimer) {
+            clearTimeout(this.nextRoundTimer);
+            this.nextRoundTimer = null;
+        }
+    }
+
     endGame() {
         this.isPlaying = false;
+        this.clearTimers();
         this.audio.stopMusic();
     }
 
     quit() {
         this.isPlaying = false;
+        this.clearTimers();
         this.audio.stopMusic();
         return null;
     }

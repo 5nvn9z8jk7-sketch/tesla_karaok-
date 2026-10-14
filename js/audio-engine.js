@@ -182,8 +182,12 @@ class AudioEngine {
             // Chaîne d'effets
             this.buildEffectsChain();
 
-            this.micSource.connect(this.effectsChain[0] || this.micGain);
-            this.effectsChain[this.effectsChain.length - 1].connect(this.micGain);
+            if (this.effectsChain.length > 0) {
+                this.micSource.connect(this.effectsChain[0]);
+                this.effectsChain[this.effectsChain.length - 1].connect(this.micGain);
+            } else {
+                this.micSource.connect(this.micGain);
+            }
             this.micGain.connect(this.audioContext.destination);
             this.micGain.connect(this.analyser);
 
@@ -234,7 +238,6 @@ class AudioEngine {
                 const wet = ctx.createGain();
                 wet.gain.value = 0.5;
 
-                this.micSource.connect(delay);
                 delay.connect(feedback);
                 feedback.connect(delay);
                 delay.connect(wet);
@@ -259,7 +262,6 @@ class AudioEngine {
                 filter.frequency.value = 800;
                 filter.Q.value = 5;
 
-                this.micSource.connect(ringMod);
                 ringMod.connect(filter);
                 this.effectsChain.push(ringMod, filter);
                 break;

@@ -317,6 +317,34 @@ html, body {
 /* ============================================================
    LISTE DES CHANSONS
    ============================================================ */
+.song-search {
+    padding: 8px 8px 0 8px;
+}
+
+.song-search input {
+    width: 100%;
+    padding: 16px 20px;
+    font-size: 1.1rem;
+    background: var(--bg-card);
+    color: var(--text-primary);
+    border: 2px solid var(--bg-tertiary);
+    border-radius: var(--radius);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.song-search input:focus {
+    border-color: var(--accent);
+}
+
+.song-list-empty {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+    padding: 40px 0;
+}
+
 .song-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
